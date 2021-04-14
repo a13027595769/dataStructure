@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="arraylist" />
+        <module name="binaryTree" />
+        <module name="CommonUtils" />
+        <module name="leetcode" />
+        <module name="linkedlist" />
+        <module name="Queue" />
+        <module name="RBTree" />
+        <module name="set" />
+        <module name="stack" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="arraylist" target="1.8" />
+      <module name="binaryTree" target="1.8" />
+      <module name="CommonUtils" target="1.8" />
+      <module name="dataStructure" target="1.8" />
+      <module name="leetcode" target="1.8" />
+      <module name="linkedlist" target="1.8" />
+      <module name="Queue" target="1.8" />
+      <module name="RBTree" target="1.8" />
+      <module name="set" target="1.8" />
+      <module name="stack" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
