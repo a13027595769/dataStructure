@@ -6,6 +6,7 @@ import com.supremind.asserta.printer.BinaryTreeInfo;
 import java.io.File;
 import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class BinarySearchTree<E> implements BinaryTreeInfo {
@@ -218,8 +219,9 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         postorderTraversal(node.left,visitor);
         postorderTraversal(node.right,visitor);
         //如果已经变成了ture，递归一进来，就是true，直接就给停了，不管是左还是右，但是左右递归出来过后，
-        //可能就已经是true了，下面那个东西就不用执行了，所以要判断一下，
-        //两个stop是不一样的，一个是停止递归调用，一个是停止业务方法。
+        //可能就已经是true了，下面那个东西就不用执行了，如果没有下面那个if判断，还是会打印，但是已经不需要打印了
+        // 所以要判断一下，
+        //两个stop是不一样的，上面那个是停止递归调用，下面那个是停止业务方法。
         //System.out.println(node.element);
         if(visitor.stop)return;
         visitor.stop = visitor.visit(node.element);
@@ -368,11 +370,15 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
         Queue<Node<E>> queue = new LinkedList<>();
         queue.offer(root);
+        //首先定义为false，默认你不是叶子节点，根节点也是完全二叉树，还是满二叉树呢。
         boolean leaf = false;
         while (!queue.isEmpty()){
             Node<E> node = queue.poll();
-            //要求你是叶子节点，但是你不是叶子结点
+            //要求你是叶子节点，但是你不是叶子结点，根节点进来，默认false，直接跳过，不可能进去这个的
+            //如果循环完了一圈，这个时候就有用了，那个时候就得判断，是不是要求你是叶子结点但是你不是叶子结点了
             if(leaf && !node.isLeaf())return false;
+            //注意，这个代码精简了不少，原来是俩if，现在elseif，就是左边不是空，然后再继续判断，原来
+            // 的俩if，不具备联合判断，就是不能用上次的判断结果
             if(node.left != null){
                 queue.offer(node.left);
             }else if(node.right !=null){//node.left == null && node.right != null
@@ -391,6 +397,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         }
         return true;
     }
+
 
 
     public static abstract class Visitor<E> {

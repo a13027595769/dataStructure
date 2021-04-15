@@ -75,6 +75,7 @@ public class MainBinarySearchTree {
                 return false;
             }
         });
+        bst.levelOrder(null);
         System.out.println();
     }
 
@@ -392,25 +393,39 @@ public class MainBinarySearchTree {
          });
         System.out.println();
     }
-
-    public static void main(String[] args) {
+    static void test15(){
         Integer data[] = new Integer[]{
-                7,4,9,2,5,8,11,3,12,1
+                7
+                //7,4,2,1,3,5,9,8,11,10,12
         };
         BinarySearchTree<Integer> bst = new BinarySearchTree<>();
 
         for (int i = 0; i < data.length; i++) {
             bst.add(data[i]);
         }
-
         BinaryTrees.println(bst);
-        bst.remove(9);
-        // bst.remove(3);
-        //bst.remove(12);
 
-        System.out.println("---------------");
-        BinaryTrees.println(bst);
-        System.out.println("-----------------");
+        System.out.println(bst.isComplete());
+    }
+    public static void main(String[] args) {
+        test15();
+//        Integer data[] = new Integer[]{
+//                7,4,9,2,5,8,11,3,12,1
+//        };
+//        BinarySearchTree<Integer> bst = new BinarySearchTree<>();
+//
+//        for (int i = 0; i < data.length; i++) {
+//            bst.add(data[i]);
+//        }
+//
+//        BinaryTrees.println(bst);
+//        bst.remove(9);
+//        // bst.remove(3);
+//        //bst.remove(12);
+//
+//        System.out.println("---------------");
+//        BinaryTrees.println(bst);
+//        System.out.println("-----------------");
 
     }
     

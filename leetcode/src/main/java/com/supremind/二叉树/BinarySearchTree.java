@@ -111,7 +111,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
     //前序遍历
     public Node<E> inverseTree1(Node root){
         if(root == null) return root;
-
+        //前后一样
         Node tmp = root.left;
         root.left = root.right;
         root.right = tmp;
@@ -122,7 +122,23 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
     //后序遍历
     public Node<E> inverseTree2(Node root){
         if(root == null) return root;
-
+        /*
+        7，4，9，2，5，8，10
+        首先进来，7有左子树么，有，4，
+        4有左子树么，有，2，
+        2有左子树么，没有，好，return，走下下面那行代码：inverseTree2(root.right);
+        2的右边，有吗？没有，这个栈结束，
+        回到上面，该4了，这个时候就没有再进去root.left了，为啥，因为这个递归调用，刚开始就是从这个方法
+        直接到最左边了，就是2，最左边弄完了，返回了，返回到4，4该接着执行啊，意思就是已经执行过了，然后进
+        right，right之后，又该left,right的走了，4的right是5，5有左么，没有，有右么，没有，但是左右还是
+        要交换的，两个null交换，无所谓
+        然后左右都弄完了，2,5都是叶子结点，再重复一遍，空节点也交换了，那4的left和right方法栈都用完了，
+        该继续往下走了，就是交换，现在4的左右是2,5，交换，OK。
+        然后回到7，继续上面的操作，7一直往左，弄完了，交换完左边的了，该执行right了，right现在是9，
+        然后9再left是8，巴拉巴拉之类的重复之前的
+        然后，右边也交换完了，
+        再把7的左右给交换一下，完成
+         */
 
         inverseTree2(root.left);
         inverseTree2(root.right);
@@ -140,6 +156,10 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         Node tmp = root.left;
         root.left = root.right;
         root.right = tmp;
+        /**
+         * 中序会出问题，为啥？因为你在左子树的时候，递归的做，交换完了，下面的右已经交换了，所以
+         * 要写左，就是这里是俩左
+         */
         inverseTree3(root.left);
         return root;
     }
