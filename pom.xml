@@ -18,6 +18,7 @@
       <module>set</module>
       <module>stack</module>
       <module>leetcode</module>
+        <module>map</module>
     </modules>
 
     <name>dataStructure</name>

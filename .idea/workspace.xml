@@ -5,37 +5,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/set/ListSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/map.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/Times.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/binaryTree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/binaryTree/BBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/binaryTree/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/binaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/binaryTree/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/file/FileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/file/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/Times.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/binaryTree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/binaryTree/BBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/binaryTree/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/binaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/binaryTree/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/file/FileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/file/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/set/TreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/src/test/java/com/supremind/map/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/MainBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/MainBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/BinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/BinarySearchTree$Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/BinarySearchTree$Visitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist/target/linkedlist-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/target/linkedlist-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist/target/surefire-reports/TEST-com.supremind.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/target/surefire-reports/TEST-com.supremind.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist/target/surefire-reports/com.supremind.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/target/surefire-reports/com.supremind.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/set/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/set.iml" beforeDir="false" afterPath="$PROJECT_DIR$/set/set.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/src/main/java/com/supremind/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/src/main/java/com/supremind/set/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/set/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/asserta/Asserts.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/map/asserta/Asserts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/asserta/printer/BinaryTreeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/map/asserta/printer/BinaryTreeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/asserta/printer/BinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/map/asserta/printer/BinaryTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/asserta/printer/InorderPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/map/asserta/printer/InorderPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/asserta/printer/LevelOrderPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/map/asserta/printer/LevelOrderPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/asserta/printer/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/map/asserta/printer/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/asserta/printer/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtils/src/main/java/com/supremind/map/asserta/printer/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/printer/BinaryTreeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/printer/BinaryTrees$PrintStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/printer/BinaryTrees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/printer/InorderPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/printer/LevelOrderPrinter$LevelInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/printer/LevelOrderPrinter$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/printer/LevelOrderPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/printer/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonUtils/target/classes/com/supremind/asserta/printer/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/Queue/CircleDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/map/Queue/CircleDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/Queue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/map/Queue/CircleQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/Queue/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/map/Queue/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/Queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/map/Queue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/src/main/java/com/supremind/map/Queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/BBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/BBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/RBTreeBakTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTreeBakTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/RBTreeErrorBAK.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTreeErrorBAK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/RBTreeNoError.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTreeNoError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/RBTreeTURE.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTreeTURE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/RBTree/binaryTree/RBTreeTrueBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTreeTrueBak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/ArrayList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/list/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/list/AbstractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/list/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/list/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/test/java/com/supremind/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/test/java/com/supremind/map/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/MainBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/binaryTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/binaryTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/test/java/com/supremind/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/test/java/com/supremind/map/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/BinaryTreeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/BinaryTreeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/BinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/BinaryTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/InorderPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/InorderPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/LevelOrderPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/LevelOrderPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/_226_翻转二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/_226_翻转二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/栈/_20_有效的括号.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/栈/_20_有效的括号.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/栈/_232_用栈实现队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/栈/_232_用栈实现队列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/链表/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/链表/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/链表/_141_环形链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/链表/_141_环形链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/链表/_206反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/链表/_206反转链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/链表/_237删除链表中的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/链表/_237删除链表中的节点.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/队列/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/队列/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/test/java/com/supremind/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/test/java/com/supremind/map/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/SingleLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/SingleLinkedList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/circle/CircleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/circle/CircleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/circle/SingleCircleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/circle/SingleCircleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/list/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/list/AbstractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/list/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/list/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/test/java/com/supremind/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/test/java/com/supremind/map/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/SingleLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/SingleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/SingleLinkedList2$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/SingleLinkedList2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/circle/CircleLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/circle/CircleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/circle/SingleCircleLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/circle/SingleCircleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/list/AbstractList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/classes/com/supremind/list/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/target/test-classes/com/supremind/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set/src/main/java/com/supremind/set/ListSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/set/ListSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set/src/main/java/com/supremind/set/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/set/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set/src/test/java/com/supremind/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/map/src/test/java/com/supremind/map/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/src/main/java/com/supremind/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack/src/main/java/com/supremind/map/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/src/main/java/com/supremind/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack/src/main/java/com/supremind/map/stack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/src/main/java/com/supremind/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack/src/main/java/com/supremind/map/stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/src/test/java/com/supremind/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/set/src/test/java/com/supremind/map/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,11 +344,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618397508156" />
-    <property name="jdk.selected.JAVA_MODULE" value="jdk8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/map/src/main/java/com/supremind/map" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -263,24 +365,40 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\devCode\dataStructure\map\src\main\java\com\supremind\map" />
+      <recent name="D:\devCode\dataStructure\RBTree\src\main\java\com\supremind\RBTree" />
+      <recent name="D:\devCode\dataStructure\set\src\main\java\com\supremind" />
+      <recent name="D:\devCode\dataStructure\leetcode\src\main\java\com\supremind" />
+      <recent name="D:\devCode\dataStructure\stack\src\main\java\com\supremind" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.supremind" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.supremind.asserta" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\devCode\dataStructure\leetcode\src\main\java\com\supremind" />
-      <recent name="D:\devCode\dataStructure\stack\src\main\java\com\supremind" />
-      <recent name="D:\devCode\dataStructure\set\src\main\java\com\supremind" />
-      <recent name="D:\devCode\dataStructure\RBTree\src\main\java\com\supremind" />
-      <recent name="D:\devCode\dataStructure\Queue\src\main\java\com\supremind" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application._226_翻转二叉树">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.supremind.Queue.Main" />
-      <module name="Queue" />
+  <component name="RunManager" selected="JUnit.AppTest.shouldAnswerWithTrue">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.supremind.Main" />
+      <module name="set" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.supremind.Queue.*" />
+          <option name="PATTERN" value="com.supremind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.supremind.map.Main" />
+      <module name="map" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.supremind.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,22 +432,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="map" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.supremind.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.supremind.map" />
+      <option name="MAIN_CLASS_NAME" value="com.supremind.map.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application._226_翻转二叉树" />
         <item itemvalue="Application.MainBinarySearchTree" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +489,8 @@
       <workItem from="1618397785478" duration="3742000" />
       <workItem from="1618408672856" duration="3000000" />
       <workItem from="1618491906122" duration="1222000" />
-      <workItem from="1618497486832" duration="5608000" />
+      <workItem from="1618497486832" duration="5758000" />
+      <workItem from="1618544548601" duration="12028000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -435,24 +574,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/BinarySearchTree.java</url>
+          <url>file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java</url>
           <line>251</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/BinarySearchTree.java</url>
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/BinarySearchTree.java</url>
           <line>142</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/_226_翻转二叉树.java</url>
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/_226_翻转二叉树.java</url>
           <line>71</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/map/src/test/java/com/supremind/map/AppTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/map/src/test/java/com/supremind/map/AppTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/MainBinarySearchTree.java</url>
+          <url>file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java</url>
           <line>72</line>
-          <properties method="visit">
+          <properties>
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
