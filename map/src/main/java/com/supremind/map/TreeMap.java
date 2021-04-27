@@ -77,7 +77,8 @@ public class TreeMap<K,V> implements Map<K,V>{
 
         //新添加节点之后的处理
         afterPut(newNode);
-        //上面那个是添加根节点，这里也是新添加的节点，只不过不是根节点，所以还是返回Null
+        //上面那个是添加根节点，这里也是新添加的节点，只不过不是根节点，新添加的节点哪有之前的元素啊，
+        // 所以还是返回Null
         return null;
     }
     private void rotateLeft(Node<K,V> grand){
@@ -293,7 +294,7 @@ public class TreeMap<K,V> implements Map<K,V>{
             }
             return p;
         }
-        //程序来到这里，说明左子树为null，要从祖父节点查找
+        //程序来到这里，说明右子树为null，要从祖父节点查找
         while(node.parent != null && node == node.parent.right){
             node = node.parent;
         }

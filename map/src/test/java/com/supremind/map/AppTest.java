@@ -1,8 +1,12 @@
 package com.supremind.map;
 
-import static org.junit.Assert.assertTrue;
 
+import com.supremind.map.file.FileInfo;
+import com.supremind.map.file.Files;
 import org.junit.Test;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Unit test for simple App.
@@ -30,6 +34,20 @@ public class AppTest
     }
     @Test
     public void test2() throws Exception{
-
+        //        FileInfo fileInfo = Files.read("E:\\JDK\\jdk8\\src\\java\\util\\concurrent",
+//                new String[]{"java"});
+        FileInfo fileInfo = Files.read("E:\\JDK\\jdk8\\src\\java\\util\\concurrent",
+                new String[]{"java"});
+        System.out.println("文件数量" + fileInfo.getFiles());
+        System.out.println("代码行数" + fileInfo.getLines());
+        String[] words = fileInfo.words();
+        System.out.println("单词数量" + words.length);
+        Map<String,Integer> map = new TreeMap<>();
+        for (int i = 0; i < words.length; i++) {
+            Integer count = map.get(words[i]);
+            count = (count == null) ? 1 : (count + 1);
+            map.put(words[i],count);
+        }
+        System.out.println(map.size());
     }
 }

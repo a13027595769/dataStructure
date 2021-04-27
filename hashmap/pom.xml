@@ -5,24 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.supremind</groupId>
-  <artifactId>dataStructure</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>arraylist</module>
-      <module>linkedlist</module>
-      <module>CommonUtils</module>
-      <module>binaryTree</module>
-      <module>Queue</module>
-      <module>RBTree</module>
-      <module>set</module>
-      <module>stack</module>
-      <module>leetcode</module>
-        <module>map</module>
-        <module>hashmap</module>
-    </modules>
+  <artifactId>hashmap</artifactId>
+  <version>1.0-SNAPSHOT</version>
 
-    <name>dataStructure</name>
+  <name>hashmap</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -39,12 +25,6 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-project-info-reports-plugin</artifactId>
-      <version>3.0.0</version>
-    </dependency>
-
   </dependencies>
 
   <build>

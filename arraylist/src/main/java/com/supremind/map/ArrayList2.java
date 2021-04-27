@@ -93,9 +93,11 @@ public class ArrayList2<E> extends AbstractList<E> {
 
         int newCapacity = oldCapacity + (oldCapacity >> 1);
         E[] newElements = (E[]) new Object[newCapacity];
-        for (int i = 0; i < size; i++) {
-            newElements[i] = elements[i];
-        }
+//        for (int i = 0; i < size; i++) {
+//            newElements[i] = elements[i];
+//        }
+                                    // 源数组   源数组下标    拷贝到目标数组   目标数组下标    拷贝几个
+        if (size >= 0) System.arraycopy(elements, 0, newElements, 0, size);
         elements = newElements;
         System.out.println(oldCapacity+"扩容为"+newCapacity);
 
