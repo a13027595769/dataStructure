@@ -5,25 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="set and map">
-      <change afterPath="$PROJECT_DIR$/hashmap/hashmap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Times.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMapBefore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/LinkedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/SubKey1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/SubKey2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/file/FileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/file/Files.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/map.iml" beforeDir="false" afterPath="$PROJECT_DIR$/map/map.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/TreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/TreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/src/test/java/com/supremind/map/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/map/src/test/java/com/supremind/map/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/target/test-classes/com/supremind/map/AppTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/map/target/test-classes/com/supremind/map/AppTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/target/test-classes/com/supremind/map/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/map/target/test-classes/com/supremind/map/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/hashmap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/hashmap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/stack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stack/stack.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Queue/target/" />
     <ignored path="$PROJECT_DIR$/hashmap/target/" />
@@ -44,41 +49,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Test01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+            <state relative-caret-position="197">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding>
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-                <element signature="e#1273#1274#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#1356#1357#0" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
-                <element signature="e#5674#5675#0" expanded="true" />
-                <element signature="e#5712#5713#0" expanded="true" />
-                <element signature="e#5758#5759#0" expanded="true" />
-                <element signature="e#5798#5799#0" expanded="true" />
-                <element signature="e#5844#5845#0" expanded="true" />
-                <element signature="e#5900#5901#0" expanded="true" />
-                <element signature="e#5946#5947#0" expanded="true" />
-                <element signature="e#5991#5992#0" expanded="true" />
-                <element signature="e#6034#6035#0" expanded="true" />
-                <element signature="e#6077#6078#0" expanded="true" />
-                <element signature="e#13195#13196#0" expanded="true" />
-                <element signature="e#13255#13256#0" expanded="true" />
-                <element signature="e#13296#13297#0" expanded="true" />
-                <element signature="e#13356#13357#0" expanded="true" />
-                <element signature="e#13394#13395#0" expanded="true" />
-                <element signature="e#13462#13463#0" expanded="true" />
-                <element signature="e#13501#13502#0" expanded="true" />
-                <element signature="e#13570#13571#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,43 +79,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="1903" column="77" selection-start-line="1903" selection-start-column="21" selection-end-line="1903" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/Objects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="652" selection-start-line="652" selection-end-line="652" />
               <folding>
-                <element signature="e#1410#1411#0" expanded="true" />
-                <element signature="e#1471#1472#0" expanded="true" />
-                <element signature="e#2786#2787#0" expanded="true" />
-                <element signature="e#2837#2838#0" expanded="true" />
-                <element signature="e#3914#3915#0" expanded="true" />
-                <element signature="e#3960#3961#0" expanded="true" />
+                <element signature="e#19327#19328#0" expanded="true" />
+                <element signature="e#19410#19411#0" expanded="true" />
+                <element signature="e#24331#24332#0" expanded="true" />
+                <element signature="e#24396#24397#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="4140" column="21" lean-forward="true" selection-start-line="4140" selection-start-column="21" selection-end-line="4140" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map/src/main/java/com/supremind/map/TreeMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="285" selection-start-line="285" selection-end-line="303" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -143,15 +106,24 @@
       <find>pre</find>
       <find>suc</find>
       <find>TreeNode</find>
-      <find>HashMap</find>
       <find>TreeMap.</find>
       <find>afterPut</find>
       <find>put</find>
       <find>compare</find>
       <find>afterRemove</find>
       <find>success</find>
+      <find>afterRotate</find>
+      <find>successor</find>
+      <find>Node</find>
+      <find>HashMap</find>
+      <find>LinkedList</find>
       <find>remove</find>
+      <find>binCount</find>
+      <find>treeifyBin</find>
     </findStrings>
+    <replaceStrings>
+      <replace>HashMap2</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\Git\Git\bin\git.exe" />
@@ -160,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arraylist/pom.xml" />
         <option value="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/list/List.java" />
         <option value="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/ArrayList.java" />
         <option value="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/ArrayList2.java" />
@@ -198,10 +169,20 @@
         <option value="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList.java" />
         <option value="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList2.java" />
         <option value="$PROJECT_DIR$/map/src/main/java/com/supremind/map/TreeMap.java" />
-        <option value="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java" />
-        <option value="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/Person.java" />
         <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Map.java" />
+        <option value="$PROJECT_DIR$/hashmap/pom.xml" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap2.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap3.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/Person.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Asserts.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/SubKey2.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/file/Files.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TreeMap.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Main.java" />
         <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/LinkedHashMap.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Test01.java" />
       </list>
     </option>
   </component>
@@ -249,6 +230,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,79 +242,48 @@
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
+              <item name="RBTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
+              <item name="RBTree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; jdk8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="supremind" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -345,9 +297,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619539652464" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619875804273" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/OpenSourceCode/Awesome-CV" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -367,6 +319,7 @@
       <recent name="com.supremind" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.supremind" />
       <recent name="com.supremind.asserta" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -389,7 +342,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Person">
+  <component name="RunManager" selected="Application.Test01">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.supremind.Main" />
+      <module name="hashmap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.supremind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.supremind.Person" />
       <module name="hashmap" />
@@ -403,7 +369,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.supremind.Test01" />
       <module name="hashmap" />
       <extension name="coverage">
         <pattern>
@@ -411,15 +378,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.supremind" />
-      <option name="MAIN_CLASS_NAME" value="com.supremind.AppTest" />
-      <option name="METHOD_NAME" value="test8" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.test15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hashmap" />
       <extension name="coverage">
         <pattern>
@@ -429,23 +392,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.supremind" />
       <option name="MAIN_CLASS_NAME" value="com.supremind.AppTest" />
-      <option name="METHOD_NAME" value="test10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hashmap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.supremind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.supremind" />
-      <option name="MAIN_CLASS_NAME" value="com.supremind.AppTest" />
-      <option name="METHOD_NAME" value="test8" />
+      <option name="METHOD_NAME" value="test15" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -469,11 +416,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test01" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AppTest.test15" />
         <item itemvalue="Application.Person" />
         <item itemvalue="JUnit.AppTest.test9" />
-        <item itemvalue="JUnit.AppTest.test8" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.test10" />
       </list>
     </recent_temporary>
   </component>
@@ -511,7 +458,12 @@
       <workItem from="1619269566377" duration="9516000" />
       <workItem from="1619346793723" duration="2252000" />
       <workItem from="1619411775478" duration="2782000" />
-      <workItem from="1619512151625" duration="9829000" />
+      <workItem from="1619512151625" duration="10692000" />
+      <workItem from="1619614987974" duration="594000" />
+      <workItem from="1619668735592" duration="5987000" />
+      <workItem from="1619789866981" duration="6548000" />
+      <workItem from="1619845041940" duration="664000" />
+      <workItem from="1619853032410" duration="12076000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -538,9 +490,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_test8 - 2021.04.24 at 21h 10m 08s.xml">
-      <configuration name="AppTest.test8" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_test8 - 2021.04.24 at 21h 10m 53s.xml">
       <configuration name="AppTest.test8" configurationId="JUnit" />
     </history-entry>
@@ -559,9 +508,21 @@
     <history-entry file="AppTest_test9 - 2021.04.24 at 21h 13m 21s.xml">
       <configuration name="AppTest.test9" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_test15 - 2021.05.01 at 01h 03m 38s.xml">
+      <configuration name="AppTest.test15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test15 - 2021.05.01 at 01h 03m 53s.xml">
+      <configuration name="AppTest.test15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test15 - 2021.05.01 at 01h 04m 04s.xml">
+      <configuration name="AppTest.test15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test15 - 2021.05.01 at 01h 12m 01s.xml">
+      <configuration name="AppTest.test15" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34545000" />
+    <option name="totallyTimeSpent" value="61277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,31 +534,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19034852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.55278593" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3313783" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17741935" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329429" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32991204" />
       <window_info anchor="bottom" id="Jms Browser" order="13" weight="0.329429" />
+      <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.55278593" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Codota" order="1" weight="0.3297587" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -673,6 +634,25 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/JDK/jdk8/src.zip!/java/util/HashMap.java</url>
+          <line>1139</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="binCount == 6" language="JAVA" />
+          <url>jar://E:/JDK/jdk8/src.zip!/java/util/HashMap.java</url>
+          <line>641</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/JDK/jdk8/src.zip!/java/util/HashMap.java</url>
+          <line>755</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java</url>
           <line>72</line>
@@ -684,68 +664,63 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>p.next.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p.next</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>table.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>binCount == 6</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>binCount == 7</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>binCount == 9</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>binCount == 8</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>binCount == 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>binCount == 3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>binCount == 5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stack/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stack/src/main/java/com/supremind/stack/Main.java" />
-    <entry file="file://$PROJECT_DIR$/stack/src/main/java/com/supremind/stack/Stack.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/_226_翻转二叉树.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/BinarySearchTree.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/BinaryTreeInfo.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/Strings.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/二叉树/TreeNode.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/队列/Main.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/App.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/链表/_141_环形链表.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/链表/_206反转链表.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/链表/_237删除链表中的节点.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/栈/_232_用栈实现队列.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/栈/_20_有效的括号.java" />
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/链表/ListNode.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="5457" lean-forward="true" selection-start-line="5457" selection-end-line="5457" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/list/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/list/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JDK/jdk8/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-946">
@@ -774,17 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4646">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-          <folding>
-            <element signature="e#2365#2366#0" expanded="true" />
-            <element signature="e#2423#2424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map/src/main/java/com/supremind/map/binaryTree/RBTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -806,33 +770,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map/src/test/java/com/supremind/map/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hashmap/src/test/java/com/supremind/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1357">
           <caret line="63" column="27" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Map.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -852,13 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Times.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -908,24 +844,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="79" column="20" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="79" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="4140" column="21" lean-forward="true" selection-start-line="4140" selection-start-column="21" selection-end-line="4140" selection-end-column="21" />
+        <state relative-caret-position="93219">
+          <caret line="4140" column="21" selection-start-line="4140" selection-start-column="21" selection-end-line="4140" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
           <folding>
             <element signature="e#1410#1411#0" expanded="true" />
             <element signature="e#1471#1472#0" expanded="true" />
@@ -937,53 +866,258 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/HashMap.java">
+    <entry file="jar://E:/JDK/jdk8/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="1903" column="77" selection-start-line="1903" selection-start-column="21" selection-end-line="1903" selection-end-column="77" />
+        <state relative-caret-position="10695">
+          <caret line="507" column="29" selection-start-line="507" selection-start-column="29" selection-end-line="507" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4163">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+          <folding>
+            <element signature="e#8112#8113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/jre/lib/rt.jar!/sun/util/locale/provider/JRELocaleProviderAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/jre/lib/rt.jar!/sun/util/locale/provider/LocaleProviderAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1541">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" selection-start-line="27" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RBTree/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/test/java/com/supremind/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+          <folding>
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMapBefore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Times.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Asserts.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/SubKey2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/SubKey1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/file/FileInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
+          <folding>
+            <element signature="e#5767#5768#0" expanded="true" />
+            <element signature="e#5800#5801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1001">
+          <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map/src/main/java/com/supremind/map/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="285" selection-start-line="285" selection-end-line="303" selection-end-column="5" />
+        <state relative-caret-position="-3784">
+          <caret line="286" column="33" selection-start-line="286" selection-start-column="24" selection-end-line="286" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/src/test/java/com/supremind/map/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="38" column="82" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3001#3160#0" expanded="true" />
+            <element signature="e#3159#3160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <element signature="e#51#97#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+        <state relative-caret-position="197">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding>
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#5674#5675#0" expanded="true" />
-            <element signature="e#5712#5713#0" expanded="true" />
-            <element signature="e#5758#5759#0" expanded="true" />
-            <element signature="e#5798#5799#0" expanded="true" />
-            <element signature="e#5844#5845#0" expanded="true" />
-            <element signature="e#5900#5901#0" expanded="true" />
-            <element signature="e#5946#5947#0" expanded="true" />
-            <element signature="e#5991#5992#0" expanded="true" />
-            <element signature="e#6034#6035#0" expanded="true" />
-            <element signature="e#6077#6078#0" expanded="true" />
-            <element signature="e#13195#13196#0" expanded="true" />
-            <element signature="e#13255#13256#0" expanded="true" />
-            <element signature="e#13296#13297#0" expanded="true" />
-            <element signature="e#13356#13357#0" expanded="true" />
-            <element signature="e#13394#13395#0" expanded="true" />
-            <element signature="e#13462#13463#0" expanded="true" />
-            <element signature="e#13501#13502#0" expanded="true" />
-            <element signature="e#13570#13571#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="652" selection-start-line="652" selection-end-line="652" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,12 +1,12 @@
 package com.supremind;
 
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import java.lang.reflect.Constructor;
 import java.util.*;
+import java.util.HashMap;
 import java.util.function.Supplier;
+import java.util.LinkedHashMap;
 
 /**
  * Unit test for simple App.
@@ -163,11 +163,11 @@ public class AppTest
     }
     @Test
     public void test9() throws Exception{
-        List<Integer> la = this.asList(LinkedList::new,2,3,4,6,4,3,5);
+        //List<Integer> la = this.asList(LinkedHashMap::new,2,3,4,6,4,3,5);
         // List<Integer> la = Arrays.asList(2,3,4,6,4,3,5);
-        System.out.println(la.getClass());
+       // System.out.println(la.getClass());
 
-        T1.print1();
+       // T1.print1();
     }
     public interface T1{
         default void print(){
@@ -216,6 +216,16 @@ public class AppTest
 
     @Test
     public void test15() throws Exception{
-
+        HashMap<String,Integer> map = new HashMap<>();
+        map.put("k1",1);
+        map.put("k2",1);
+        map.put("k3",1);
+        map.put("k4",1);
+//     The bin count threshold for using a tree rather than list for a
+//     bin.  Bins are converted to trees when adding an element to a
+//     bin with at least this many nodes. The value must be greater
+//     than 2 and should be at least 8 to mesh with assumptions in
+//     tree removal about conversion back to plain bins upon
+//     shrinkage
     }
 }

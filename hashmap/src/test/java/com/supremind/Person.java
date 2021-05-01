@@ -39,7 +39,14 @@ public class Person {
 //        hashCode = hashCode * 31 + Objects.hashCode(name);
 //        return hashCode;
 //    }
-
+    /*
+    为啥equals方法俩对象调用方法还可能不一样呢？
+    因为对象一般是要重写equals和hashcode方法的，
+    equals的相等逻辑，可能是instance of 比如Person的子类Student，
+    如果是Person的子类，我也认为是相等的，还有一种写法是getClass().getName()是不是相等。
+    就是要求必须是一个类型，子类也不行，如果发生了这种条件，不是hashmap的问题，是写equals方法的问题，
+    找背锅的人去吧！
+     */
     public static void main(String[] args) {
         Person p1 = new Person(10,1.67f,"jack");
         Person p2 = new Person(10,1.67f,"jack");
