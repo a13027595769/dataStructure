@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="set and map">
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Asserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMapBefore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/LinkedHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/SubKey1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/SubKey2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TreeMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/file/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/file/Files.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/hashmap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/hashmap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/test/java/com/supremind/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/stack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stack/stack.iml" afterDir="false" />
-    </list>
+    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="set and map" />
     <ignored path="$PROJECT_DIR$/Queue/target/" />
     <ignored path="$PROJECT_DIR$/hashmap/target/" />
     <ignored path="$PROJECT_DIR$/leetcode/target/" />
@@ -51,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Test01.java">
+        <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TestBinCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="62" />
+            <state relative-caret-position="402">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/list/List.java" />
         <option value="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/ArrayList.java" />
         <option value="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/ArrayList2.java" />
         <option value="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/Main.java" />
@@ -183,6 +157,7 @@
         <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" />
         <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/LinkedHashMap.java" />
         <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Test01.java" />
+        <option value="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TestBinCount.java" />
       </list>
     </option>
   </component>
@@ -215,7 +190,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="240" />
     <option name="y" value="130" />
     <option name="width" value="1440" />
@@ -239,47 +214,6 @@
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="RBTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="RBTree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; jdk8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -297,7 +231,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619875804273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619875809364" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -342,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test01">
+  <component name="RunManager" selected="Application.TestBinCount">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.supremind.Main" />
       <module name="hashmap" />
@@ -369,8 +303,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.supremind.Test01" />
+    <configuration name="TestBinCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.supremind.TestBinCount" />
       <module name="hashmap" />
       <extension name="coverage">
         <pattern>
@@ -416,7 +350,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test01" />
+        <item itemvalue="Application.TestBinCount" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AppTest.test15" />
         <item itemvalue="Application.Person" />
@@ -463,7 +397,7 @@
       <workItem from="1619668735592" duration="5987000" />
       <workItem from="1619789866981" duration="6548000" />
       <workItem from="1619845041940" duration="664000" />
-      <workItem from="1619853032410" duration="12076000" />
+      <workItem from="1619853032410" duration="12798000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -522,7 +456,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61277000" />
+    <option name="totallyTimeSpent" value="61999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,7 +469,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19034852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -547,11 +480,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3313783" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17741935" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32844576" />
@@ -1112,10 +1045,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/Test01.java">
+    <entry file="file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TestBinCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="62" />
+        <state relative-caret-position="402">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
