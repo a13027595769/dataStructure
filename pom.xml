@@ -20,6 +20,7 @@
       <module>leetcode</module>
         <module>map</module>
         <module>hashmap</module>
+        <module>heap</module>
     </modules>
 
     <name>dataStructure</name>

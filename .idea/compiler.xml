@@ -6,17 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="linkedlist" />
-        <module name="stack" />
-        <module name="set" />
-        <module name="CommonUtils" />
-        <module name="binaryTree" />
-        <module name="RBTree" />
-        <module name="leetcode" />
         <module name="arraylist" />
-        <module name="Queue" />
-        <module name="map" />
+        <module name="binaryTree" />
+        <module name="CommonUtils" />
         <module name="hashmap" />
+        <module name="heap" />
+        <module name="leetcode" />
+        <module name="linkedlist" />
+        <module name="map" />
+        <module name="Queue" />
+        <module name="RBTree" />
+        <module name="set" />
+        <module name="stack" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="CommonUtils" target="1.8" />
       <module name="dataStructure" target="1.8" />
       <module name="hashmap" target="1.8" />
+      <module name="heap" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="linkedlist" target="1.8" />
       <module name="map" target="1.8" />
