@@ -1,6 +1,9 @@
 package com.supremind;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
+import java.util.TreeMap;
 
 public class Person {
     private int age;
@@ -52,5 +55,6 @@ public class Person {
         Person p2 = new Person(10,1.67f,"jack");
         System.out.println(p1.hashCode());
         System.out.println(p2.hashCode());
+        List<Integer> integers = new ArrayList<>();
     }
 }

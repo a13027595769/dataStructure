@@ -67,7 +67,7 @@ public class ArrayList<E> extends AbstractList<E> {
         //可以等于size
         rangeCheckForAdd(index);
         //动态扩容
-        ensureCapacity(size+1);
+        ensureCapacity(size + 1);
 
         for(int i = size ; i > index;i--){
             elements[i] = elements[i - 1];
@@ -96,8 +96,6 @@ public class ArrayList<E> extends AbstractList<E> {
         }
         elements = newElements;
         System.out.println(oldCapacity+"扩容为"+newCapacity);
-
-
     }
 
     @Override

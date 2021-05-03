@@ -1,12 +1,17 @@
 package com.supremind;
 
 
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableSet;
+import com.google.common.collect.LinkedHashMultimap;
 import org.junit.Test;
 
 import java.util.*;
 import java.util.HashMap;
 import java.util.function.Supplier;
 import java.util.LinkedHashMap;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Unit test for simple App.
@@ -168,6 +173,18 @@ public class AppTest
        // System.out.println(la.getClass());
 
        // T1.print1();
+//        Stream.of("one", "two", "three", "four")
+//                .peek(e -> System.out.println("peek value: " + e))
+//                .forEach(e -> System.out.println("forEach value: " + e));
+        Stream.of(5, 2, 3, 4,1)
+                .peek(e -> System.out.println("peek value: " + e))
+                .forEach(e -> System.out.println("forEach value: " + e));
+        System.out.println("------------------------");
+        Stream.of(5, 2, 3, 4,1)
+                .peek(e -> System.out.println("peek value: " + e))
+                .sorted()
+                .forEach(e -> System.out.println("forEach value: " + e));
+
     }
     public interface T1{
         default void print(){
@@ -227,5 +244,12 @@ public class AppTest
 //     than 2 and should be at least 8 to mesh with assumptions in
 //     tree removal about conversion back to plain bins upon
 //     shrinkage
+    }
+
+    @Test
+    public void test16() throws Exception{
+        Optional<Object> empty = Optional.empty();
+        ImmutableList.of(1,2,3);
+        ImmutableSet.builder().add(1).add();
     }
 }
