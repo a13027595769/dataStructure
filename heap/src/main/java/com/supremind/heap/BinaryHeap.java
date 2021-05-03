@@ -11,10 +11,9 @@ import java.util.Comparator;
  * @param <E>
  */
 @SuppressWarnings("unchecked")
-public class BinaryHeap<E> implements Heap<E>, BinaryTreeInfo {
+public class BinaryHeap<E> extends AbstractHeap<E> implements BinaryTreeInfo {
 	private E[] elements;
-	private int size;
-	private Comparator<E> comparator;
+
 	private static final int DEFAULT_CAPACITY = 10;
 	public BinaryHeap(Comparator<E> comparator){
 		this.comparator = comparator;
@@ -24,15 +23,6 @@ public class BinaryHeap<E> implements Heap<E>, BinaryTreeInfo {
 		this(null);
 	}
 
-	@Override
-	public int size() {
-		return size;
-	}
-
-	@Override
-	public boolean isEmpty() {
-		return size == 0;
-	}
 
 	@Override
 	public void clear() {
@@ -78,22 +68,31 @@ public class BinaryHeap<E> implements Heap<E>, BinaryTreeInfo {
 			int pIndex = (index - 1) >> 1;
 			E p = elements[pIndex];
 			//如果小于等于0，那就直接return好了，不用比较了，就跟红黑树添加节点一样，默认是红的，父节点黑的，正好
-			if(compare(e,p) <= 0) return;
+			if(compare(e,p) <= 0) break;
 			//交换index，pIndex的位置
-			E tmp = elements[index];
-			elements[index] = elements[pIndex];
-			elements[pIndex] = tmp;
+			elements[index] = p;
 			//每次循环完之后，要变索引的，因为可能会一直往上比较，交换完之后，pindex就要变成index重新往上比较
 			//然后再次取整之类的，直到不满足条件，退出循环
 			index = pIndex;
-
 		}
+		/*
+			    ┌─68─┐
+			    │    │
+			 ┌─68─┐  43
+			 │    │
+			50    38
+			没有这行代码，就没法进行最终的覆盖了
+			    ┌─72─┐
+			    │    │
+			 ┌─68─┐  43
+			 │    │
+			50    38
+			最终的是这样，return改为break，因为return直接整个函数就结束了，break跳出while循环，还能向下循环
+		 */
+		elements[index] = e;
 	}
 
-	private int compare(E e1,E e2){
-		return comparator != null ? comparator.compare(e1, e2)
-				: ((Comparable<E>)e1).compareTo(e2);
-	}
+
 	private void ensureCapacity(int capacity) {
 		int oldCapacity = elements.length;
 		//如果原来的比传入的参数大，就没必要动了，直接return
@@ -125,21 +124,18 @@ public class BinaryHeap<E> implements Heap<E>, BinaryTreeInfo {
 
 	@Override
 	public Object left(Object node) {
-		Integer index = (Integer)node;
-		index = (index << 1) + 1;
+		int index = ((int)node << 1) + 1;
 		return index >= size ? null : index;
 	}
 
 	@Override
 	public Object right(Object node) {
-		Integer index = (Integer)node;
-		index = (index << 1) + 2;
+		int index = ((int)node << 1) + 2;
 		return index >= size ? null : index;
 	}
 
 	@Override
 	public Object string(Object node) {
-		Integer index = (Integer)node;
-		return elements[index];
+		return elements[(int)node];
 	}
 }
