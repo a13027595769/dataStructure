@@ -168,18 +168,18 @@ public class AppTest
     }
     @Test
     public void test9() throws Exception{
-        //List<Integer> la = this.asList(LinkedHashMap::new,2,3,4,6,4,3,5);
-        // List<Integer> la = Arrays.asList(2,3,4,6,4,3,5);
-       // System.out.println(la.getClass());
+        List<Integer> la = this.asList(LinkedList::new,2,3,4,6,4,3,5);
+         List<Integer> la2 = Arrays.asList(2,3,4,6,4,3,5);
+        System.out.println(la.getClass());
 
        // T1.print1();
 //        Stream.of("one", "two", "three", "four")
 //                .peek(e -> System.out.println("peek value: " + e))
 //                .forEach(e -> System.out.println("forEach value: " + e));
-        Stream.of(5, 2, 3, 4,1)
-                .peek(e -> System.out.println("peek value: " + e))
-                .forEach(e -> System.out.println("forEach value: " + e));
-        System.out.println("------------------------");
+//        Stream.of(5, 2, 3, 4,1)
+//                .peek(e -> System.out.println("peek value: " + e))
+//                .forEach(e -> System.out.println("forEach value: " + e));
+//        System.out.println("------------------------");
         Stream.of(5, 2, 3, 4,1)
                 .peek(e -> System.out.println("peek value: " + e))
                 .sorted()
