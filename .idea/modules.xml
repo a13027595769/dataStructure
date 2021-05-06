@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CommonUtils/CommonUtils.iml" filepath="$PROJECT_DIR$/CommonUtils/CommonUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/RBTree/RBTree.iml" filepath="$PROJECT_DIR$/RBTree/RBTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trie/Trie.iml" filepath="$PROJECT_DIR$/Trie/Trie.iml" />
       <module fileurl="file://$PROJECT_DIR$/arraylist/arraylist.iml" filepath="$PROJECT_DIR$/arraylist/arraylist.iml" />
       <module fileurl="file://$PROJECT_DIR$/binaryTree/binaryTree.iml" filepath="$PROJECT_DIR$/binaryTree/binaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dataStructure.iml" filepath="$PROJECT_DIR$/.idea/dataStructure.iml" />

@@ -21,6 +21,7 @@
         <module>map</module>
         <module>hashmap</module>
         <module>heap</module>
+        <module>Trie</module>
     </modules>
 
     <name>dataStructure</name>
