@@ -5,6 +5,7 @@ import com.supremind.map.asserta.printer.BinaryTreeInfo;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 public class BinaryTree<E>  implements BinaryTreeInfo {
     protected int size;
@@ -31,6 +32,21 @@ public class BinaryTree<E>  implements BinaryTreeInfo {
             return parent != null && this == parent.right;
         }
 
+        public Node<E> sibling() {
+            if (isLeftChild()) {
+                return parent.right;
+            }
+
+            if (isRightChild()) {
+                return parent.left;
+            }
+
+            return null;
+        }
+        @Override
+        public String toString() {
+            return element.toString();
+        }
     }
     public int size(){
         return size;
@@ -45,53 +61,118 @@ public class BinaryTree<E>  implements BinaryTreeInfo {
     }
 
     /**
-     * 前序遍历
+     * 前序遍历，这个就是层序遍历的思想
      */
-    public void preorderTraversal(Visitor<E> visitor){
-        if(visitor == null)return;
-        preorderTraversal(root,visitor);
+    public void preorder(Visitor<E> visitor){
+        //如果visitor是null 或者root是null直接return就好了
+        if (visitor == null || root == null) return;
+        //用栈来存储
+        Stack<Node<E>> stack = new Stack<>();
+        //不管是哪个，都是先把根节点入队，因为你一开始能拿到的都是根节点
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            //前序，根左右，先访问根节点
+            Node<E> node = stack.pop();
+            // 访问node节点
+            if (visitor.visit(node.element)) return;
+            //访问的时候，先让右边入队，根据栈的先进后出，又是前序，右边是最后访问的，所以，让右边先入队
+            //然后左边再入队
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
     }
-    private void preorderTraversal(Node<E> node, Visitor<E> visitor){
-        if(node == null || visitor.stop) return;
-        visitor.stop = visitor.visit(node.element);
-        //System.out.println(node.element);
-        preorderTraversal(node.left,visitor);
-        preorderTraversal(node.right,visitor);
+    public void preorder2(Visitor<E> visitor) {
+        if (visitor == null || root == null) return;
+        Node<E> node = root;
+        Stack<Node<E>> stack = new Stack<>();
+        while (true) {
+            //这里第一次肯定不是空，但是是循环做的，第二次可能就是了，所以idea没有提示
+            if (node != null) {
+                // 访问node节点，这边是访问到左边就做操作了，那个是先都放到栈里面，一起做，这个是及时行乐，
+                if (visitor.visit(node.element)) return;
+                // 将右子节点入栈
+                if (node.right != null) {
+                    stack.push(node.right);
+                }
+                // 向左走
+                node = node.left;
+            } else if (stack.isEmpty()) {
+                return;
+            } else {
+                // 处理右边
+                node = stack.pop();
+            }
+        }
     }
 
     /**
      * 中序遍历
      */
-    public void inorderTraversal(Visitor<E> visitor){
-        if(visitor == null)return;
-        inorderTraversal(root,visitor);
+    public void inorder(Visitor<E> visitor){
+        if (visitor == null || root == null) return;
+        Node<E> node = root;
+        Stack<Node<E>> stack = new Stack<>();
+        while (true) {
+            if (node != null) {
+                stack.push(node);
+                // 向左走，先把左边的都给入队了，不是及时行乐，也是一起做，
+                node = node.left;
+            } else if (stack.isEmpty()) {
+                return;
+            } else {
+                //代码走到这里说明左边已经探索到底了，然后就该弹出来了
+                node = stack.pop();
+                // 弹出来进行访问node节点，因为一直往左，而且是左根右，其实某种程度上说，根据这种遍历方式
+                // 左就是根
+                if (visitor.visit(node.element)) return;
+                // 这个时候就轮到右了，让右节点进行中序遍历
+                node = node.right;
+            }
+        }
     }
-    private void inorderTraversal(Node<E> node, Visitor<E> visitor){
-        if(node == null || visitor.stop)return;
-        inorderTraversal(node.left,visitor);
-        if(visitor.stop)return;
-        visitor.stop = visitor.visit(node.element);
-        //  System.out.println(node.element);
-        inorderTraversal(node.right,visitor);
-    }
+
     /**
      * 后序遍历
      */
-    public void postorderTraversal(Visitor<E> visitor){
-        if(visitor == null)return;
-        postorderTraversal(root,visitor);
+    public void postorder(Visitor<E> visitor){
+        if (visitor == null || root == null) return;
+        /* 记录上一次弹出访问的节点，为什么要这样，这个和之前的不一样，左右根，
+         这种遍历方式，就是先探索到底，虽然和中序很像，但是，不行，因为毕竟根节点和左字节点好歹也是
+         递归的，一根线上一起添加的，但是这个，左，右了才是根，访问的时候，应该都是叶子节点了
+        这里的思路是，你不是要左右根的访问么，我就按照反过来的先给你添加到栈里面，你弹出来的时候，
+        就是后序遍历了，我一开始只能访问根节点，但是，我不直接添加，我先看一下，你是不是叶子节点，你
+        是叶子节点我才弹出，不是叶子节点我就入栈，所以刚开始是一直入栈的，到叶子节点之后，就开始左右根的
+        弹了，然后左右都弹出来了，到父节点了，按理说就该接着弹出来，但是，它不是叶子节点，这样就会造成死循环
+        所以加一个prev的node，就相当于一个Flag吧，我看一下我之前的儿子访问过没有，访问过就不能访问了，不能
+        死循环，就看一下，这里是或的条件，prev != null && prev.parent == top加了个这个，然后，弹出来一个
+        之后，就循环赋值给prev，左右根的根来到之后，他确实不是叶子，但是，它却是他儿子的父亲，跟说废话一样
+        这样就好了，然后else里面就是右左，再说一遍，根进去就是prev != null && prev.parent == top这个条件
+        因为top.isLeaf()不符合条件，是或的关系，然后就弹出来了，右左相反，因为是叶子才能弹出来
+        */
+        Node<E> prev = null;
+        Stack<Node<E>> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            Node<E> top = stack.peek();
+            if (top.isLeaf() || (prev != null && prev.parent == top)) {
+                prev = stack.pop();
+                // 访问节点
+                if (visitor.visit(prev.element)) return;
+            } else {
+                if (top.right != null) {
+                    stack.push(top.right);
+                }
+                if (top.left != null) {
+                    stack.push(top.left);
+                }
+            }
+        }
     }
-    private void postorderTraversal(Node<E> node, Visitor<E> visitor){
-        if(node == null || visitor.stop)return;
-        inorderTraversal(node.left,visitor);
-        inorderTraversal(node.right,visitor);
-        //如果已经变成了ture，递归一进来，就是true，直接就给停了，不管是左还是右，但是左右递归出来过后，
-        //可能就已经是true了，下面那个东西就不用执行了，所以要判断一下，
-        //两个stop是不一样的，一个是停止递归调用，一个是停止业务方法。
-        //System.out.println(node.element);
-        if(visitor.stop)return;
-        visitor.stop = visitor.visit(node.element);
-    }
+
 
     public void levelOrder(Visitor<E> visitor){
         //不用担心会不会这一层右子树的还没有完，下一层的左右子树就开始了，
@@ -112,8 +193,7 @@ public class BinaryTree<E>  implements BinaryTreeInfo {
         }
     }
     public static abstract class Visitor<E> {
-        boolean stop;
-        abstract boolean visit(E element);
+        public abstract boolean visit(E element);
     }
     @Override
     public Object root() {
