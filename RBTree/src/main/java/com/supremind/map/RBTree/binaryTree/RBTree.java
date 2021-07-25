@@ -107,7 +107,7 @@ public class RBTree<E> extends BBST<E> {
     @Override
     protected void afterRemove(Node<E> node) {
         //如果删除的是RED节点，直接删除就好了
-        //TODO 这一行必须删除，否则会造成父节点和子节点都是红色的情况
+        //TODO if(isRed(node)) return;  这一行必须删除，否则会造成父节点和子节点都是红色的情况
         /*
                          ┌─────70────┐
                          │           │

@@ -1,7 +1,5 @@
 package com.supremind.map;
 
-import com.supremind.map.binaryTree.BinaryTree;
-
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Objects;
@@ -83,8 +81,10 @@ public class TreeMap<K,V> implements Map<K,V>{
     }
     private void rotateLeft(Node<K,V> grand){
         Node<K,V> parent = grand.right;
+        //这个child不是那个祖孙三代最小的那个，是一个普通的节点，还是想象小弟上位。因为LL活着RR，不需要旋转
+        //最小的那个，只需要动祖父节点就行了。注意，这个child是parent的left，不是right就能看出来了
         Node<K,V> child = parent.left;
-
+        //这里的child就是Parent的left，经过旋转之后parent的left不就是grand么，parent的下面不就是child么
         grand.right = child;
         parent.left = grand;
         //调整父子关系的代码，你parent变成根节点了，那grand的父亲应该指向parent一些操作都放到这里面去做吧。
@@ -110,7 +110,7 @@ public class TreeMap<K,V> implements Map<K,V>{
         }else {  //grand是root节点
             root = parent;
         }
-        //更新child的parent
+        //更新child的parent，这个child是普通节点，不是祖孙三代的那个节点
         if(child != null){
             child.parent = grand;
         }
@@ -163,6 +163,8 @@ public class TreeMap<K,V> implements Map<K,V>{
         //祖父节点
         // Node<K,V> grand = parent.parent;
         //这里直接把一个染成红色的节点给你接收了。
+        //这个grand就是祖父节点，就是三个节点中间的那个，红黑红中的黑，你要向上合并，而且当成新添加的节点
+        //那就把你染成红色，因为默认添加的新节点就是红色
         Node<K,V> grand = red(parent.parent);
         if(isRed(uncle)){
             black(parent);
@@ -181,6 +183,7 @@ public class TreeMap<K,V> implements Map<K,V>{
             因为默认添加的节点都是红色的，父节点要染黑，能来到这，祖父节点都是黑的，因为就那四种情况
              */
             if(node.isLeftChild()){//LL
+                //祖父节点不用染成红色吗？忘了吧，已经抽取出来了，祖父节点在刚开始就被染成红色了。
                 black(parent);
             }else{//LR
                 black(node);

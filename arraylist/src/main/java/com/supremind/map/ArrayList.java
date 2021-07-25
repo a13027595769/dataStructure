@@ -13,13 +13,15 @@ public class ArrayList<E> extends AbstractList<E> {
     private static final int DEFAULT_CAPACITY = 10;
 
 
-    public ArrayList(int capacity){
-        capacity = (capacity < DEFAULT_CAPACITY)?DEFAULT_CAPACITY:capacity;
-        elements= (E[]) new Object[capacity];
+    public ArrayList(int capacity) {
+        capacity = (capacity < DEFAULT_CAPACITY) ? DEFAULT_CAPACITY : capacity;
+        elements = (E[]) new Object[capacity];
     }
-    public ArrayList(){
+
+    public ArrayList() {
         this(DEFAULT_CAPACITY);
     }
+
     /**
      * 清除所有元素
      */
@@ -31,15 +33,14 @@ public class ArrayList<E> extends AbstractList<E> {
     }
 
 
-
-
     /**
      * 获取index位置的元素
+     *
      * @param index
      * @return
      */
     public E get(int index) {
-        if(index < 0 ||  index >= size){
+        if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index:" + index + ",Size" + size);
         }
         return elements[index];
@@ -47,12 +48,13 @@ public class ArrayList<E> extends AbstractList<E> {
 
     /**
      * 设置index位置的元素
+     *
      * @param index
      * @param element
      * @return 原来的元素ֵ
      */
     public E set(int index, E element) {
-       rangeCheck(index);
+        rangeCheck(index);
         E old = elements[index];
         elements[index] = element;
         return old;
@@ -60,6 +62,7 @@ public class ArrayList<E> extends AbstractList<E> {
 
     /**
      * 在index位置插入一个元素
+     *
      * @param index
      * @param element
      */
@@ -69,7 +72,7 @@ public class ArrayList<E> extends AbstractList<E> {
         //动态扩容
         ensureCapacity(size + 1);
 
-        for(int i = size ; i > index;i--){
+        for (int i = size; i > index; i--) {
             elements[i] = elements[i - 1];
         }
 //        和下面是一样的
@@ -82,12 +85,13 @@ public class ArrayList<E> extends AbstractList<E> {
 
     /**
      * 保证要有capacity的容量
+     *
      * @param capacity
      */
     private void ensureCapacity(int capacity) {
         int oldCapacity = elements.length;
         //如果原来的比传入的参数大，就没必要动了，直接return
-        if(oldCapacity >= capacity) return;
+        if (oldCapacity >= capacity) return;
 
         int newCapacity = oldCapacity + (oldCapacity >> 1);
         E[] newElements = (E[]) new Object[newCapacity];
@@ -95,15 +99,15 @@ public class ArrayList<E> extends AbstractList<E> {
             newElements[i] = elements[i];
         }
         elements = newElements;
-        System.out.println(oldCapacity+"扩容为"+newCapacity);
+        System.out.println(oldCapacity + "扩容为" + newCapacity);
     }
 
     @Override
     public String toString() {
-       StringBuilder string  = new StringBuilder();
-       string.append("size=").append(size).append(",[");
+        StringBuilder string = new StringBuilder();
+        string.append("size=").append(size).append(",[");
         for (int i = 0; i < size; i++) {
-            if(i!=0){
+            if (i != 0) {
                 string.append(",");
             }
             string.append(elements[i]);
@@ -124,6 +128,7 @@ public class ArrayList<E> extends AbstractList<E> {
 
     /**
      * 删除index位置的元素
+     *
      * @param index
      * @return
      */
@@ -131,30 +136,31 @@ public class ArrayList<E> extends AbstractList<E> {
         rangeCheck(index);
         E old = elements[index];
 
-        for (int i = index + 1; i < size  ; i++) {
-                elements[i - 1] = elements[i];
+        for (int i = index + 1; i < size; i++) {
+            elements[i - 1] = elements[i];
         }
         elements[--size] = null;
         return old;
     }
 
-    public void remove(E element){
+    public void remove(E element) {
         remove(indexOf(element));
     }
 
     /**
      * 查看元素的索引
+     *
      * @param element
      * @return
      */
     public int indexOf(E element) {
-        if(element == null){
+        if (element == null) {
             for (int i = 0; i < size; i++) {
-                if(elements[i] == null)return i;
+                if (elements[i] == null) return i;
             }
-        }else{
+        } else {
             for (int i = 0; i < size; i++) {
-                if(element.equals(elements[i]))return i;
+                if (element.equals(elements[i])) return i;
             }
         }
 

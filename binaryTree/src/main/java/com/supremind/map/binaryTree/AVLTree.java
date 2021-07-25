@@ -192,14 +192,16 @@ public class AVLTree<E> extends BST<E> {
 
         public int balanceFactor(){
             //TODO Refactory is Batter?
-            Tree tree = new Tree().invoke();
+//            Tree tree = new Tree().invoke();
+            Tree tree = new Tree();
          //   int leftHeight = tree.getLeftHeight();
         //    int rightHeight = tree.getRightHeight();
             return  tree.getLeftHeight() - tree.getRightHeight();
         }
 
         public void updateHeight(){
-            Tree tree = new Tree().invoke();
+            //Tree tree = new Tree().invoke();
+            Tree tree = new Tree();
 //            int leftHeight= left == null ? 0 : ((AVLNode<E>)left).height;
 //            int rightHeight = right == null ? 0 : ((AVLNode<E>)right).height;
             height = 1 + Math.max(tree.getLeftHeight(),tree.getRightHeight());
@@ -223,8 +225,8 @@ public class AVLTree<E> extends BST<E> {
         }
 
         private class Tree {
-            private int leftHeight;
-            private int rightHeight;
+            private final int leftHeight;
+            private final int rightHeight;
 
             public int getLeftHeight() {
                 return leftHeight;
@@ -234,10 +236,10 @@ public class AVLTree<E> extends BST<E> {
                 return rightHeight;
             }
 
-            public Tree invoke() {
+            public Tree() {
                 leftHeight = left == null ? 0 : ((AVLNode<E>) left).height;
                 rightHeight = right == null ? 0 : ((AVLNode<E>) right).height;
-                return this;
+               // return this;
             }
         }
     }

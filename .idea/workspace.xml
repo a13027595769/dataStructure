@@ -5,148 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="set and map">
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/target/classes/com/supremind/Queue/CircleDeque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/target/classes/com/supremind/Queue/CircleQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/target/classes/com/supremind/Queue/Deque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/target/classes/com/supremind/Queue/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/target/classes/com/supremind/Queue/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/BinarySearchTree$Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/AVLTree$AVLNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/BBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/BinaryTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/BinaryTree$Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTree$RBNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTreeErrorBAK$RBNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTreeErrorBAK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTreeNoError$RBNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTreeNoError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTreeTURE$RBNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTreeTURE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTreeTrueBak$RBNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/target/classes/com/supremind/RBTree/binaryTree/RBTreeTrueBak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trie/target/classes/com/supremind/trie/Trie$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/Trie/target/classes/com/supremind/trie/Trie$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trie/target/classes/com/supremind/trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/Trie/target/classes/com/supremind/trie/Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/target/classes/com/supremind/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/target/classes/com/supremind/ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/target/classes/com/supremind/ArrayList2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/target/classes/com/supremind/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/target/classes/com/supremind/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/target/classes/com/supremind/list/AbstractList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/target/classes/com/supremind/list/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arraylist/target/test-classes/com/supremind/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/src/test/java/com/supremind/map/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/test/java/com/supremind/map/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/BinarySearchTree$Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$PersonComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree$PersonComparator2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/MainBinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/binaryTree/AVLTree$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/binaryTree/AVLTree$AVLNode$Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/binaryTree/AVLTree$AVLNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/binaryTree/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/binaryTree/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/binaryTree/BinaryTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/binaryTree/BinaryTree$Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/binaryTree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/target/test-classes/com/supremind/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/test-classes/com/supremind/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/arraylist/src/main/java/com/supremind/map/ArrayList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree$Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree$Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/binaryTree/AVLTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/binaryTree/AVLTree$AVLNode$Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/binaryTree/AVLTree$AVLNode$Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/binaryTree/AVLTree$AVLNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/binaryTree/AVLTree$AVLNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/binaryTree/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/binaryTree/AVLTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/src/main/java/com/supremind/heap/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/heap/src/main/java/com/supremind/heap/BinaryHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heap/target/classes/com/supremind/heap/BinaryHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/heap/target/classes/com/supremind/heap/BinaryHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heap/target/test-classes/com/supremind/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/heap/target/test-classes/com/supremind/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/BinarySearchTree$Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/BinaryTreeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/BinaryTrees$PrintStyle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/BinaryTrees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/InorderPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/LevelOrderPrinter$LevelInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/LevelOrderPrinter$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/LevelOrderPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/Strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/_226_翻转二叉树$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/二叉树/_226_翻转二叉树.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/栈/_20_有效的括号.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/栈/_232_用栈实现队列.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/链表/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/链表/_141_环形链表.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/链表/_206反转链表.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/链表/_237删除链表中的节点.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/com/supremind/队列/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/test-classes/com/supremind/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/target/classes/com/supremind/map/TreeMap$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/map/target/classes/com/supremind/map/TreeMap$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/target/classes/com/supremind/map/TreeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/map/target/classes/com/supremind/map/TreeMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/target/test-classes/com/supremind/map/AppTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/map/target/test-classes/com/supremind/map/AppTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/target/test-classes/com/supremind/map/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/map/target/test-classes/com/supremind/map/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/Times$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/Times.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/binaryTree/AVLTree$AVLNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/binaryTree/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/binaryTree/BBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/binaryTree/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/binaryTree/BinaryTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/binaryTree/BinaryTree$Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/binaryTree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/binaryTree/RBTree$RBNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/binaryTree/RBTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/file/FileInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/file/Files$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/file/Files.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/set/ListSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/set/Set$Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/set/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/set/TreeSet$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/classes/com/supremind/set/TreeSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/target/test-classes/com/supremind/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/TreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/map/src/main/java/com/supremind/map/TreeMap.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/Queue/target/" />
-    <ignored path="$PROJECT_DIR$/hashmap/target/" />
-    <ignored path="$PROJECT_DIR$/leetcode/target/" />
-    <ignored path="$PROJECT_DIR$/binaryTree/target/" />
-    <ignored path="$PROJECT_DIR$/RBTree/target/" />
-    <ignored path="$PROJECT_DIR$/CommonUtils/target/" />
-    <ignored path="$PROJECT_DIR$/arraylist/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/set/target/" />
-    <ignored path="$PROJECT_DIR$/stack/target/" />
-    <ignored path="$PROJECT_DIR$/map/target/" />
-    <ignored path="$PROJECT_DIR$/linkedlist/target/" />
-    <ignored path="$PROJECT_DIR$/heap/target/" />
-    <ignored path="$PROJECT_DIR$/Trie/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,16 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trie/src/main/java/com/supremind/trie/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="2277">
               <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-              <folding>
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#3399#3400#0" expanded="true" />
-                <element signature="e#3443#3444#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -175,23 +44,7 @@
         <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="83">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding>
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#5290#5291#0" expanded="true" />
-                <element signature="e#5317#5318#0" expanded="true" />
-                <element signature="e#5370#5371#0" expanded="true" />
-                <element signature="e#5413#5414#0" expanded="true" />
-                <element signature="e#5467#5468#0" expanded="true" />
-                <element signature="e#5511#5512#0" expanded="true" />
-                <element signature="e#5897#5898#0" expanded="true" />
-                <element signature="e#5931#5932#0" expanded="true" />
-                <element signature="e#7784#7785#0" expanded="true" />
-                <element signature="e#7820#7821#0" expanded="true" />
-                <element signature="e#8028#8029#0" expanded="true" />
-                <element signature="e#8077#8078#0" expanded="true" />
-              </folding>
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -199,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1886">
+            <state relative-caret-position="253">
               <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
@@ -217,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="276">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -226,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="253">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -235,11 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="1495">
               <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-              <folding>
-                <element signature="e#1981#2175#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -247,11 +97,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="552">
               <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -260,13 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binaryTree/src/test/java/com/supremind/map/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="644">
               <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -274,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="667">
               <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
             </state>
           </provider>
@@ -381,14 +225,9 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\RepMaven" />
-        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="mavenHome" value="D:\apache-maven-3.6.0" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -431,6 +270,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -580,7 +420,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -594,9 +433,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620317755580" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620317968912" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk8" />
-    <property name="last_opened_file_path" value="D:/闪马代码/ducha_platform_v1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -627,19 +466,7 @@
       <recent name="D:\devCode\dataStructure\set\src\main\java\com\supremind" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.supremind.map.App" />
       <module name="binaryTree" />
@@ -653,18 +480,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Trie" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.supremind.map.Main" />
+      <module name="binaryTree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.supremind.*" />
+          <option name="PATTERN" value="com.supremind.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.supremind" />
-      <option name="MAIN_CLASS_NAME" value="com.supremind.AppTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -685,7 +509,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heap" />
       <extension name="coverage">
         <pattern>
@@ -695,13 +519,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.supremind" />
       <option name="MAIN_CLASS_NAME" value="com.supremind.AppTest" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heap" />
       <extension name="coverage">
         <pattern>
@@ -711,7 +535,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.supremind" />
       <option name="MAIN_CLASS_NAME" value="com.supremind.AppTest" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -719,15 +543,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AppTest.test2" />
+        <item itemvalue="JUnit.AppTest.test3" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.test1" />
-        <item itemvalue="JUnit.AppTest.test1 (1)" />
-        <item itemvalue="JUnit.AppTest.test4" />
-        <item itemvalue="JUnit.AppTest.test5" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -771,7 +595,17 @@
       <workItem from="1620051425004" duration="5699000" />
       <workItem from="1620107111490" duration="10210000" />
       <workItem from="1620193428285" duration="12639000" />
-      <workItem from="1620276852067" duration="10506000" />
+      <workItem from="1620276852067" duration="11206000" />
+      <workItem from="1620361747317" duration="60000" />
+      <workItem from="1620362514699" duration="25000" />
+      <workItem from="1620362564685" duration="3987000" />
+      <workItem from="1620448815611" duration="3305000" />
+      <workItem from="1620564703713" duration="86000" />
+      <workItem from="1620800052846" duration="22000" />
+      <workItem from="1620831214408" duration="318000" />
+      <workItem from="1620967550394" duration="20000" />
+      <workItem from="1627097080948" duration="6863000" />
+      <workItem from="1627182169239" duration="4970000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -830,7 +664,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112117000" />
+    <option name="totallyTimeSpent" value="112903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -843,9 +677,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20375335" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -854,12 +687,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27419356" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23753665" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36510265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.46041057" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46041057" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32844576" />
@@ -881,29 +714,14 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -922,6 +740,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init the project" />
@@ -934,48 +753,34 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java</url>
-          <line>251</line>
-          <properties />
+          <line>268</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/BinarySearchTree.java</url>
           <line>142</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/supremind/map/二叉树/_226_翻转二叉树.java</url>
           <line>71</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://E:/JDK/jdk8/src.zip!/java/util/HashMap.java</url>
           <line>1139</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <condition expression="binCount == 6" language="JAVA" />
           <url>jar://E:/JDK/jdk8/src.zip!/java/util/HashMap.java</url>
           <line>641</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://E:/JDK/jdk8/src.zip!/java/util/HashMap.java</url>
           <line>755</line>
-          <properties />
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hashmap/src/test/java/com/supremind/AppTest.java</url>
-          <line>180</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java</url>
@@ -1395,33 +1200,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trie/src/main/java/com/supremind/trie/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="2277">
           <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
-            <element signature="e#3443#3444#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/Stack.java">
+    <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-          <folding>
-            <element signature="e#1981#2175#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1432,70 +1219,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1886">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="276">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="253">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/Main.java">
+    <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binaryTree/src/test/java/com/supremind/map/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1495">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="552">
           <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binaryTree/src/test/java/com/supremind/map/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk8/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#5290#5291#0" expanded="true" />
-            <element signature="e#5317#5318#0" expanded="true" />
-            <element signature="e#5370#5371#0" expanded="true" />
-            <element signature="e#5413#5414#0" expanded="true" />
-            <element signature="e#5467#5468#0" expanded="true" />
-            <element signature="e#5511#5512#0" expanded="true" />
-            <element signature="e#5897#5898#0" expanded="true" />
-            <element signature="e#5931#5932#0" expanded="true" />
-            <element signature="e#7784#7785#0" expanded="true" />
-            <element signature="e#7820#7821#0" expanded="true" />
-            <element signature="e#8028#8029#0" expanded="true" />
-            <element signature="e#8077#8078#0" expanded="true" />
-          </folding>
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>

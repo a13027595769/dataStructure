@@ -1,6 +1,7 @@
 package com.supremind.heap;
 
 import com.supremind.map.asserta.printer.BinaryTreeInfo;
+import com.supremind.map.asserta.printer.BinaryTrees;
 
 import java.util.Comparator;
 
@@ -175,6 +176,7 @@ public class BinaryHeap<E> extends AbstractHeap<E> implements BinaryTreeInfo {
 
 		}
 		elements[index] = element;
+		BinaryTrees.println(this);
 	}
 	/*
 	让index位置的元素上滤
