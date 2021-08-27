@@ -5,7 +5,7 @@ package com.supremind.map.RBTree.binaryTree;
 import java.util.Comparator;
 
 public class BST<E> extends BinaryTree<E> {
-    private Comparator<E> comparator;
+    private final Comparator<E> comparator;
 
     public BST(Comparator<E> comparator){
         this.comparator = comparator;
@@ -100,7 +100,9 @@ public class BST<E> extends BinaryTree<E> {
             }else {//node == node.parent.right
                 node.parent.right = replacement;
             }
-            //删除节点之后的处理
+            //删除节点之后的处理,这里本来是传node的，现在传的是replacement,目前这个afterRemove只有
+            //AVL树和红黑树用到，AVL树是更新高度，或者到达平衡，就是一直找parent，比较左右子树高度差
+            //是不是2，没有用到，那红黑树呢？
             afterRemove(replacement);
         }else if(node.parent == null){//node是叶子结点,并且是根节点
             root = null;

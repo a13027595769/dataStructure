@@ -50,6 +50,8 @@ public class LinkedHashMap<K, V> extends HashMap<K, V> {
         LinkedNode<K, V> node1 = (LinkedNode<K, V>) willNode;
         LinkedNode<K, V> node2 = (LinkedNode<K, V>) removedNode;
         //如果度为1或者是0，就没必要比较了，因为两个是一样的这个只适用于度为2的，只有度为2才能进来。
+        //他们俩个必须不能相同，相同的话，就是度为1或者是0，在后面，随便拿哪个都行，因为在父类，是传了
+        //两个，如果是度为1，就是一样的了，
         if (node1 != node2) {
             // 交换linkedWillNode和linkedRemovedNode在链表中的位置
             // 交换prev
@@ -60,7 +62,8 @@ public class LinkedHashMap<K, V> extends HashMap<K, V> {
                 //如果当前节点的前一个是null，那么就说明你是头结点，头结点一删，那first指针就该指向你的下一个。
                 first = node1;
             } else {
-                //现在已经交换了，node1就是node2
+                //现在已经交换了，node1就是node2，这个就是原来的指向的prev，
+                // 现在这个原来指向的prev的指针也是要变化的，但是这里只是弄了prev,所以，下面的next指针也是要变的
                 node1.prev.next = node1;
             }
             //两个节点，都得弄
@@ -86,7 +89,7 @@ public class LinkedHashMap<K, V> extends HashMap<K, V> {
                 node2.next.prev = node2;
             }
         }
-
+        //其实这里node1和node2都是一样的。
         LinkedNode<K, V> prev = node2.prev;
         LinkedNode<K, V> next = node2.next;
         /*

@@ -5,7 +5,7 @@ import com.supremind.map.LinkedList;
 import com.supremind.map.list.List;
 
 public class ListSet<E> implements Set<E> {
-    private List<E> list = new LinkedList<>();
+    private final List<E> list = new LinkedList<>();
     @Override
     public int size() {
         return list.size();

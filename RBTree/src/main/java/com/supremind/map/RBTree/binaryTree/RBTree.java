@@ -130,7 +130,7 @@ public class RBTree<E> extends BBST<E> {
          如果你是根节点，那也是黑色的，影响不了。如果是叶子结点，并且是红色的直接return也没毛病，不是
          红色的，就走到后面了，就是黑色的叶子节点。
          之前是没有考虑全面，就不要想node和replacement俩参数了，为什么在BST里面传replacement参数在这里
-         用node接收就行了？简而言之，就是传replacement函数就行了？
+         用node接收就行了？简而言之，就是传replacement就行了？
          因为在那里，replacement函数已经把该做的做了，改变父子关系啥的，现在已经把指针指向孩子了，
          这个时候，只需要染黑就行了。
          上面那个图，得染黑，叶子结点是红色，直接删掉，再染个也没啥，反正都要没了。
@@ -187,7 +187,7 @@ public class RBTree<E> extends BBST<E> {
         //是左边吗？是左边，你的兄弟就是右边，否则就是左边，如果上面那行代码不删除，这边sibling可能会
         //为null，但是我们分析的情况兄弟不可能为null的。
         Node<E> sibling = left ? parent.right : parent.left;
-
+        //因为删除的你不知道是左边还是右边，讲课讲的都是右边，我们还是要判断一下的
         if(left){//被删除的节点在左边，兄弟节点在右边
             if(isRed(sibling)){//兄弟节点是红色，就是要把侄子变成兄弟了，然后进行旋转
                 black(sibling);
@@ -205,7 +205,7 @@ public class RBTree<E> extends BBST<E> {
                     afterRemove(parent);
                 }
 
-            }else{
+            }else{//被删除的节点在左边，兄弟节点在右边
                 if(isBlack(sibling.right)){
                     rotateRight(sibling);
                     sibling = parent.right;
@@ -215,6 +215,7 @@ public class RBTree<E> extends BBST<E> {
                 color(sibling,colorOf(parent));
                 //然后，兄弟的左边和父节点都要染成黑色，不是必须红黑红了，黑黑黑也行，红黑树不是必须
                 // 黑红交替的，节点小的话，全黑也行。
+                //
                 black(sibling.right);
                 black(parent);
 
@@ -241,7 +242,6 @@ public class RBTree<E> extends BBST<E> {
                 red(sibling);
                 if(parentBlack){
                     //就跟添加上溢一样，上溢到根节点，上面就又会判断一下，是不是空啊。
-
                     afterRemove(parent);
                     /*
                      //删除的是根节点
@@ -256,7 +256,8 @@ public class RBTree<E> extends BBST<E> {
                 //右旋转，直接处理一次，就跟删除度为2的节点一样，找前驱或者后继，都是要删除的，我
                 //就先赋值一下，最后统一处理，也挺骚的。。，但是，终究还是有问题，因为你左旋之后，关系没有
                 //处理好。左旋之后，就是往下面走了，那就不是你的兄弟了，就变成了你的侄子了。怎么处理呢？
-                //父节点的左边再重新赋值给兄弟，就好了。sibling = parent.left;这句代码
+                //父节点的左边再重新赋值给兄弟，就好了。就是兄弟变侄子了，侄子变成兄弟了
+                // sibling = parent.left;这句代码
                 //先判断兄弟左边是不是黑的，没有就默认是null,null默认就是黑的。
                 if(isBlack(sibling.left)){
                     rotateLeft(sibling);

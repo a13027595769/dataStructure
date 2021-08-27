@@ -6,7 +6,7 @@ import com.supremind.map.binaryTree.RBTree;
 import java.util.Comparator;
 
 public class TreeSet<E> implements Set<E> {
-    private RBTree<E> tree;
+    private final RBTree<E> tree;
     public TreeSet(Comparator<E> comparator){
         tree = new RBTree<>(comparator);
     }

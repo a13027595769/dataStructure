@@ -147,11 +147,10 @@ public class Trie<V> {
         public Node(Node<V> parent) {
             this.parent = parent;
         }
-
+        //注意看一下HashMap的value，也是一个node，那就是说明，dog,doy,y和g就是那个node，就是那个value
         HashMap<Character, Node<V>> children;
         V value;
         boolean word;//是否为单词的结尾，(是否是一个完整的单词)
-
 
     }
 }
