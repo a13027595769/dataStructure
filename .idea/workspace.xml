@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="set and map">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/RBTree/src/main/java/com/supremind/map/RBTree/binaryTree/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trie/src/main/java/com/supremind/trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trie/src/main/java/com/supremind/trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/LinkedHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/LinkedHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/set/ListSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/set/ListSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/set/TreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/set/src/main/java/com/supremind/map/set/TreeSet.java" afterDir="false" />
-    </list>
+    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -438,6 +430,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -602,6 +595,7 @@
       <workItem from="1628140684066" duration="4631000" />
       <workItem from="1628593124454" duration="3812000" />
       <workItem from="1628653776568" duration="2296000" />
+      <workItem from="1630038901857" duration="488000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -624,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619012251694</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add comments">
+      <created>1630039062397</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630039062397</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -742,7 +743,8 @@
     <MESSAGE value="init the project" />
     <MESSAGE value="set and map" />
     <MESSAGE value="map" />
-    <option name="LAST_COMMIT_MESSAGE" value="map" />
+    <MESSAGE value="add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
