@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="" />
+    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonUtils/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RBTree/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trie/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arraylist/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binaryTree/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmap/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedlist/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -433,19 +449,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\devCode\dataStructure" />
+      <recent name="D:\devCode\dataStructure\Trie" />
+      <recent name="D:\devCode\dataStructure\stack" />
+      <recent name="D:\devCode\dataStructure\set" />
+      <recent name="D:\devCode\dataStructure\RBTree" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.supremind" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.supremind" />
       <recent name="com.supremind.asserta" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\devCode\dataStructure\heap\src\main\java\com\supremind\heap" />
-      <recent name="D:\devCode\dataStructure\hashmap\src\main\java\com\supremind" />
-      <recent name="D:\devCode\dataStructure\map\src\main\java\com\supremind\map" />
-      <recent name="D:\devCode\dataStructure\RBTree\src\main\java\com\supremind\RBTree" />
-      <recent name="D:\devCode\dataStructure\set\src\main\java\com\supremind" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AppTest.test4">
@@ -595,7 +611,7 @@
       <workItem from="1628140684066" duration="4631000" />
       <workItem from="1628593124454" duration="3812000" />
       <workItem from="1628653776568" duration="2296000" />
-      <workItem from="1630038901857" duration="488000" />
+      <workItem from="1630038901857" duration="2417000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -625,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630039062397</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add comments">
+      <created>1630039530515</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630039530515</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
