@@ -405,7 +405,7 @@ public class MainBinarySearchTree {
         System.out.println(bst.isComplete());
     }
     public static void main(String[] args) {
-        test15();
+        test11();
 //        Integer data[] = new Integer[]{
 //                7,4,9,2,5,8,11,3,12,1
 //        };

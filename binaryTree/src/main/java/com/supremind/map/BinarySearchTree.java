@@ -362,7 +362,8 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
             if (levelSize == 0) {
                 //每当当前这一层元素都被访问完才能进入这个if判断，并且把下一层的元素个数赋值给levelSize
-                //不用担心会不会乱了，因为每一次是把下一层的复制之后，levelsize不减到0是不会进行重新赋值的
+                //queue.poll，就是你下一层的，你每次把一层都给弹出来完了，才会进入下一层的，不清楚就debug
+                //不用担心会不会乱了，因为每一次是把下一层的赋值之后，levelsize不减到0是不会进行重新赋值的
                 levelSize = queue.size();
                 height++;
             }
