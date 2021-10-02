@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="求高度增加注释">
+    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree$Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree$Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -614,7 +629,7 @@
       <workItem from="1628653776568" duration="2296000" />
       <workItem from="1630038901857" duration="3304000" />
       <workItem from="1633093582368" duration="2365000" />
-      <workItem from="1633149286638" duration="1848000" />
+      <workItem from="1633149286638" duration="3650000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -665,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633095362283</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="二叉树后继增加注释">
+      <created>1633188286337</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633188286337</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -788,7 +810,8 @@
     <MESSAGE value="add comments" />
     <MESSAGE value="add gitignore file" />
     <MESSAGE value="求高度增加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="求高度增加注释" />
+    <MESSAGE value="二叉树后继增加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树后继增加注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -829,9 +852,14 @@
           <line>344</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java</url>
-          <line>72</line>
+          <line>73</line>
           <properties>
             <option name="EMULATED" value="true" />
           </properties>

@@ -56,6 +56,7 @@ public class MainBinarySearchTree {
         for (int i = 0; i < data.length; i++) {
             bst.add(data[i]);
         }
+        System.out.println("height:"+bst.height());
         BinaryTrees.println(bst);
 //        bst.levelOrderTraversal();
 //        bst.levelOrder((Integer element)->{
@@ -405,7 +406,7 @@ public class MainBinarySearchTree {
         System.out.println(bst.isComplete());
     }
     public static void main(String[] args) {
-        test11();
+        test6();
 //        Integer data[] = new Integer[]{
 //                7,4,9,2,5,8,11,3,12,1
 //        };
