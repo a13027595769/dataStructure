@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="">
+    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="求高度增加注释">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/MainBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/src/main/java/com/supremind/map/binaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/binaryTree/target/classes/com/supremind/map/MainBinarySearchTree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -479,13 +479,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -611,7 +613,8 @@
       <workItem from="1628593124454" duration="3812000" />
       <workItem from="1628653776568" duration="2296000" />
       <workItem from="1630038901857" duration="3304000" />
-      <workItem from="1633093582368" duration="1682000" />
+      <workItem from="1633093582368" duration="2365000" />
+      <workItem from="1633149286638" duration="1848000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -655,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630125515727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="求高度增加注释">
+      <created>1633095362283</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633095362283</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -770,12 +780,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init the project" />
     <MESSAGE value="set and map" />
     <MESSAGE value="map" />
     <MESSAGE value="add comments" />
     <MESSAGE value="add gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitignore file" />
+    <MESSAGE value="求高度增加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="求高度增加注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

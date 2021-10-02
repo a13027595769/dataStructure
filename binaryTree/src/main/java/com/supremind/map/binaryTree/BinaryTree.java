@@ -255,12 +255,12 @@ public class BinaryTree<E>  implements BinaryTreeInfo {
             }
             return p;
         }
-        //程序来到这里，说明左子树为null，要从祖父节点查找
+        //程序来到这里，说明右子树为null，要从祖父节点查找
         while(node.parent != null && node == node.parent.right){
             node = node.parent;
         }
         //1.父节点为null了，那就是没有前驱结点， node.parent == null
-        //2.不是父节点的左节点而是右节点 node.parent.left
+        //2.不是父节点的右节点而是左节点 node.parent.left
         return node.parent;
     }
 
