@@ -43,7 +43,7 @@ public class HashMap<K, V> implements Map<K, V> {
         resize();
 
         int index = index(key);
-        // 取出index位置的红黑树根节点
+        // 取出index位置的红黑树根节点,看看有没有元素。
         Node<K, V> root = table[index];
         if (root == null) {
             //如果root是空的话，就是没有获取到，parent就是null，然后再放到对应的位置
@@ -55,6 +55,8 @@ public class HashMap<K, V> implements Map<K, V> {
             你修复红黑树的时候，链表要变的
              */
             fixAfterPut(root);
+            //因为你覆盖了，本来是要返回之前节点的，但是你进入这里，说明是第一次进来
+            //那你之前就不存在，所以就是返回Null了。
             return null;
         }
 
@@ -62,7 +64,9 @@ public class HashMap<K, V> implements Map<K, V> {
         Node<K, V> parent = root;
         Node<K, V> node = root;
         int cmp = 0;
+        //传进来的key
         K k1 = key;
+        //传进来的key，进行hash运算
         int h1 = hash(k1);
         Node<K, V> result = null;
         boolean searched = false; // 是否已经搜索过这个key
@@ -115,6 +119,7 @@ public class HashMap<K, V> implements Map<K, V> {
             就已经该往左往右走了，不用操其他的心了。如果是null呢？那while循环就不满足了，就退出了，没找到。
              */
             } else if (searched) { // 已经扫描了
+                //这个cmp是决定往哪里添加的，就是左边还是右边添加，查找是在node方法里面
                 cmp = System.identityHashCode(k1) - System.identityHashCode(k2);
             } else { // searched == false; 还没有扫描，然后再根据内存地址大小决定左右
                 if ((node.left != null && (result = node(node.left, k1)) != null)
@@ -124,6 +129,7 @@ public class HashMap<K, V> implements Map<K, V> {
                     cmp = 0;
                 } else { // 不存在这个key
                     searched = true;
+                    //这个cmp是决定往哪里添加的，就是左边还是右边添加，查找是在node方法里面
                     cmp = System.identityHashCode(k1) - System.identityHashCode(k2);
                 }
             }
@@ -301,7 +307,7 @@ public class HashMap<K, V> implements Map<K, V> {
         }
 
         // 添加新的节点到红黑树上面
-        Node<K, V> parent = root;
+        Node<K, V> parent;
         Node<K, V> node = root;
         int cmp = 0;
         K k1 = newNode.key;
@@ -448,6 +454,10 @@ public class HashMap<K, V> implements Map<K, V> {
                     && (cmp = ((Comparable) k1).compareTo(k2)) != 0) {
                 //这个时候就需要了
                 node = cmp > 0 ? node.right : node.left;
+                //看一下这里，先看看右边是不是空，右边不是空，再看看右边有没有找到，找不到的话
+                //那不就是不符合嘛，那就进不去这个else if,就进去else里面了，所以能左右都扫一遍
+                //当然，这边是递归的,都是直接进到头，然后不符合，再扫左边，一层一层的出，一层一层
+                //的左边就扫到了。
             } else if (node.right != null && (result = node(node.right, k1)) != null) {
                 return result;
             } else { // 只能往左边找

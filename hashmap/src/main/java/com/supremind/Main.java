@@ -48,6 +48,7 @@ public class Main {
 		for (int i = 5; i <= 7; i++) {
 			map.put(new Key(i), i + 5);
 		}
+
 		Asserts.test(map.size() == 20);
 		Asserts.test(map.get(new Key(4)) == 4);
 		Asserts.test(map.get(new Key(5)) == 10);
@@ -127,6 +128,7 @@ public class Main {
 		test3(new HashMap<>());
 		test4(new HashMap<>());
 		test5(new HashMap<>());
+
 //
 //		test1();
 //		test2(new LinkedHashMap<>());
