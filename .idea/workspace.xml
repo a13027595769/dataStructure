@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/printer/BinaryTreeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/printer/BinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/printer/InorderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/printer/LevelOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/printer/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TestBinCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/TestBinCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/HashMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/HashMap$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/HashMap$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/HashMap$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/HashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/LinkedHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/LinkedHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/TestBinCount$SimpleBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/TestBinCount$SimpleBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/TestBinCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/target/classes/com/supremind/TestBinCount.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -622,7 +607,7 @@
       <workItem from="1633093582368" duration="2365000" />
       <workItem from="1633149286638" duration="4782000" />
       <workItem from="1633252164755" duration="378000" />
-      <workItem from="1633520897088" duration="8323000" />
+      <workItem from="1633520897088" duration="8730000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -694,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633530837117</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="node和put方法复习">
+      <created>1633533149550</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1633533149550</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -820,7 +812,8 @@
     <MESSAGE value="二叉树后继增加注释" />
     <MESSAGE value="传的是引用，和编译原理iterator弄混了" />
     <MESSAGE value="hashmap复习" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashmap复习" />
+    <MESSAGE value="node和put方法复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="node和put方法复习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,7 +872,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java</url>
-          <line>443</line>
+          <line>445</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

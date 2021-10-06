@@ -88,6 +88,8 @@ public class HashMap<K, V> implements Map<K, V> {
                     && k1 instanceof Comparable
                     && k1.getClass() == k2.getClass()
                     && (cmp = ((Comparable) k1).compareTo(k2)) != 0) {
+                //等于0了，就不符合条件了，往后走，这个时候说明比较不出来，进入下面的else if，
+                //让他们去扫描，不等于0了，那就进来了，，然后带着结果跳出判断了，下面控制左边还是右边
             /*
             再看一下，比较hashcode，大于0或者小于0，往后走了，往左或者往右，类型是不是一样的，不管！
             如果走到那个comparable说明什么，说明前面的equals也不成立，说明不是同一个对象，
