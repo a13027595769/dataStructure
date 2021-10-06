@@ -120,8 +120,15 @@ public class HashMap<K, V> implements Map<K, V> {
              */
             } else if (searched) { // 已经扫描了
                 //这个cmp是决定往哪里添加的，就是左边还是右边添加，查找是在node方法里面
+                //你可能还在疑惑，这个search不是进来的时候就重新赋值了嘛？那这个变量不就
+                //没有用了嘛？其实不是的，这个search，既然是管着添加的东西往哪走，那么
+                //是在这个while循环中的，和外面无关，大于小于都会一直循环，走到这里看看
+                //左边还是右边，直到找到进行覆盖或者找不到，跳出循环，下面进行添加新的节点
                 cmp = System.identityHashCode(k1) - System.identityHashCode(k2);
             } else { // searched == false; 还没有扫描，然后再根据内存地址大小决定左右
+                //这个左还是右都没有关系，你看，这里先是左不是空，去node了，然后把
+                //左子树扫描一遍，然后没找到的话，进入||或了。再把右子树扫描一遍，还是没找到
+                //这个时候就可以根据内存地址比较了。
                 if ((node.left != null && (result = node(node.left, k1)) != null)
                         || (node.right != null && (result = node(node.right, k1)) != null)) {
                     // 已经存在这个key

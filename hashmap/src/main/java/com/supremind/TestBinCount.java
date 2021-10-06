@@ -1,15 +1,20 @@
 package com.supremind;
 
+
 import java.util.Objects;
-import java.util.HashMap;
-import java.util.Map;
 
 public class TestBinCount {
     public static void main(String[] args) {
-        Map<SimpleBO, String> stringMap = new HashMap<>();
+//        Map<SimpleBO, String> stringMap = new HashMap<>();
+//        for (int i = 0; i < 100; i++) {
+//            stringMap.put(new SimpleBO("test" + i), "test" + i);
+//        }
+        HashMap<SimpleBO, String> stringMap = new HashMap<>();
         for (int i = 0; i < 100; i++) {
             stringMap.put(new SimpleBO("test" + i), "test" + i);
         }
+        stringMap.print();
+        stringMap.get(new SimpleBO("test80"));
     }
     static class SimpleBO {
         private String name;
@@ -32,6 +37,13 @@ public class TestBinCount {
         @Override
         public int hashCode() {
             return 11241;
+        }
+
+        @Override
+        public String toString() {
+            return "{" +
+                    "name='" + name + '\'' +
+                    '}';
         }
     }
 }
