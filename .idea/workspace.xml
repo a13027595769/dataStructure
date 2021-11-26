@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="Comparable复习">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/Main.java" afterDir="false" />
+    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/realwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/realwork.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -602,6 +601,7 @@
       <workItem from="1634543620822" duration="1032000" />
       <workItem from="1634631970634" duration="2157000" />
       <workItem from="1636647707278" duration="154000" />
+      <workItem from="1637943728180" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -687,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633533560106</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test">
+      <created>1637943749611</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637943749611</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -815,7 +822,8 @@
     <MESSAGE value="hashmap复习" />
     <MESSAGE value="node和put方法复习" />
     <MESSAGE value="Comparable复习" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparable复习" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
