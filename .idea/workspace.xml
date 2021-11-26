@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="">
+    <list default="true" id="5e56ed53-85da-4c6b-9e74-0f2c2759ac6c" name="Default Changelist" comment="Comparable复习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashmap/src/main/java/com/supremind/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/src/main/java/com/supremind/map/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,7 +419,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620317968912" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hashmap/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -500,17 +500,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -607,7 +596,12 @@
       <workItem from="1633093582368" duration="2365000" />
       <workItem from="1633149286638" duration="4782000" />
       <workItem from="1633252164755" duration="378000" />
-      <workItem from="1633520897088" duration="8730000" />
+      <workItem from="1633520897088" duration="11324000" />
+      <workItem from="1633933597853" duration="4425000" />
+      <workItem from="1634479975774" duration="700000" />
+      <workItem from="1634543620822" duration="1032000" />
+      <workItem from="1634631970634" duration="2157000" />
+      <workItem from="1636647707278" duration="154000" />
     </task>
     <task id="LOCAL-00001" summary="init the project">
       <created>1618396133311</created>
@@ -686,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633533149550</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Comparable复习">
+      <created>1633533560106</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1633533560106</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -813,7 +814,8 @@
     <MESSAGE value="传的是引用，和编译原理iterator弄混了" />
     <MESSAGE value="hashmap复习" />
     <MESSAGE value="node和put方法复习" />
-    <option name="LAST_COMMIT_MESSAGE" value="node和put方法复习" />
+    <MESSAGE value="Comparable复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparable复习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

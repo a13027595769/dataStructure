@@ -51,7 +51,7 @@ public class Main {
 //        testList(new CircleLinkedList<>());
         josephus();
         LinkedList<Object> objectLinkedList = new LinkedList<>();
-
+        objectLinkedList.add("1");
 
     }
 }
