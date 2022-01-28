@@ -124,7 +124,7 @@ public class BinaryHeap<E> extends AbstractHeap<E> implements BinaryTreeInfo {
 	private void siftDown(int index){
 		E element = elements[index];
 		int half = size >> 1; // 非叶子节点的数量直接除以2
-		//第一个叶子节点的数量 == 非叶子节点的数量
+		//第一个叶子节点的索引 == 非叶子节点的数量
 		/*
 		叶子节点的数量 no = floor((n + 1) / 2) = ceiling(n / 2)
 		非叶子节点的数量 no = floor(n / 2) = ceiling((n-1) / 2)
