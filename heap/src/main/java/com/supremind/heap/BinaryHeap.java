@@ -73,6 +73,8 @@ public class BinaryHeap<E> extends AbstractHeap<E> implements BinaryTreeInfo {
 		elementNotNullCheck(element);
 		ensureCapacity(size + 1);
 		elements[size++] = element;
+		//上滤，默认添加的话是添加到数组最后一个位置，但是如果最后一个是最大的，就要不断的跟父节点
+		//比较，说不定是最大的，那就成为堆的根节点了。
 		siftUp(size - 1);
 	}
 

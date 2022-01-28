@@ -81,7 +81,7 @@ public class TreeMap<K,V> implements Map<K,V>{
     }
     private void rotateLeft(Node<K,V> grand){
         Node<K,V> parent = grand.right;
-        //这个child不是那个祖孙三代最小的那个，是一个普通的节点，还是想象小弟上位。因为LL活着RR，不需要旋转
+        //这个child不是那个祖孙三代最小的那个，是一个普通的节点，还是想象小弟上位。因为LL或者RR，不需要旋转
         //最小的那个，只需要动祖父节点就行了。注意，这个child是parent的left，不是right就能看出来了
         Node<K,V> child = parent.left;
         //这里的child就是Parent的left，经过旋转之后parent的left不就是grand么，parent的下面不就是child么

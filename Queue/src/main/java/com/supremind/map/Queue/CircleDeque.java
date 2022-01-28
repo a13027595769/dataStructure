@@ -5,7 +5,6 @@ public class CircleDeque<E> {
     private int size;
     private E[] elements;
     private static final int DEFAULT_CAPACITY = 10;
-
     public CircleDeque() {
         elements = (E[]) new Object[DEFAULT_CAPACITY];
     }

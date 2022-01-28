@@ -7,6 +7,9 @@ import com.supremind.map.set.TreeSet;
 import com.supremind.map.set.ListSet;
 import com.supremind.map.set.Set;
 
+import java.util.Collection;
+import java.util.Collections;
+
 public class Main {
     public static void main(String[] args) {
         test2();

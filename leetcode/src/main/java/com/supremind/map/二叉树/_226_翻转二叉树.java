@@ -34,8 +34,8 @@ public class _226_翻转二叉树 {
         if(root == null) return root;
 
 
-        inverseTree(root.left);
-        inverseTree(root.right);
+        inverseTree2(root.left);
+        inverseTree2(root.right);
         TreeNode tmp = root.left;
         root.left = root.right;
         root.right = tmp;
@@ -47,12 +47,12 @@ public class _226_翻转二叉树 {
         if(root == null) return root;
 
 
-        inverseTree(root.left);
+        inverseTree3(root.left);
         TreeNode tmp = root.left;
         root.left = root.right;
         root.right = tmp;
         //这里的左右已经交换顺序了，本来应该是right，所以变成了left
-        inverseTree(root.left);
+        inverseTree3(root.left);
 
         return root;
     }
