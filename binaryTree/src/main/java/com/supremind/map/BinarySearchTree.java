@@ -149,7 +149,8 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
             //因为后面要删除node，这里要删除s，所以就把s赋值给node，后面统一处理就可以了
             node = s;
         }
-        //删除node节点（node节点的度必然是1或者0）
+        //删除node节点（node节点的度必然是1或者0）， 如果是1，那么不是左就是右，如果是0，那么就是node.right,那么node.right还是Null,
+        //所以最终还是null
         Node<E> replacement = node.left != null ? node.left : node.right;
 
         if (replacement != null) {//node是度为1的节点
