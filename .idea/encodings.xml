@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CommonUtils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CommonUtils/src/main/java" charset="UTF-8" />
@@ -12,23 +12,36 @@
     <file url="file://$PROJECT_DIR$/RBTree/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RBTree/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Trie" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Trie/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Trie/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/arraylist" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/arraylist/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/arraylist/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/binaryTree" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/binaryTree/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/binaryTree/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hashmap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hashmap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hashmap/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/heap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heap/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leetcode" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leetcode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leetcode/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/linkedlist" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/linkedlist/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/linkedlist/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/map" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/map/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/map/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/set" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/set/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/set/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stack" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stack/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stack/src/main/resources" charset="UTF-8" />
   </component>
 </project>

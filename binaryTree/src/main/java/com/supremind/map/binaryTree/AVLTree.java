@@ -190,21 +190,16 @@ public class AVLTree<E> extends BST<E> {
         }
 
 
-        public int balanceFactor(){
-            //TODO Refactory is Batter?
-//            Tree tree = new Tree().invoke();
-            Tree tree = new Tree();
-         //   int leftHeight = tree.getLeftHeight();
-        //    int rightHeight = tree.getRightHeight();
-            return  tree.getLeftHeight() - tree.getRightHeight();
+        public int balanceFactor() {
+            int leftHeight = left == null ? 0 : ((AVLNode<E>)left).height;
+            int rightHeight = right == null ? 0 : ((AVLNode<E>)right).height;
+            return leftHeight - rightHeight;
         }
 
-        public void updateHeight(){
-            //Tree tree = new Tree().invoke();
-            Tree tree = new Tree();
-//            int leftHeight= left == null ? 0 : ((AVLNode<E>)left).height;
-//            int rightHeight = right == null ? 0 : ((AVLNode<E>)right).height;
-            height = 1 + Math.max(tree.getLeftHeight(),tree.getRightHeight());
+        public void updateHeight() {
+            int leftHeight = left == null ? 0 : ((AVLNode<E>)left).height;
+            int rightHeight = right == null ? 0 : ((AVLNode<E>)right).height;
+            height = 1 + Math.max(leftHeight, rightHeight);
         }
         public Node<E> tallerChild(){
             int leftHeight= left == null ? 0 : ((AVLNode<E>)left).height;
@@ -224,24 +219,6 @@ public class AVLTree<E> extends BST<E> {
             return element + "_p(" + parentString + ")_h("+ height +")";
         }
 
-        private class Tree {
-            private final int leftHeight;
-            private final int rightHeight;
-
-            public int getLeftHeight() {
-                return leftHeight;
-            }
-
-            public int getRightHeight() {
-                return rightHeight;
-            }
-
-            public Tree() {
-                leftHeight = left == null ? 0 : ((AVLNode<E>) left).height;
-                rightHeight = right == null ? 0 : ((AVLNode<E>) right).height;
-               // return this;
-            }
-        }
     }
 
 }

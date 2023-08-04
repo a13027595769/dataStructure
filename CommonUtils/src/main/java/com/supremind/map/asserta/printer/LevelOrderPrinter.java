@@ -13,7 +13,7 @@ import java.util.*;
   35 ┌─190 ┌─476 ┌─760─┐
      │     │     │     │
     146   445   600   800
-    
+
  * @author MJ Lee
  *
  */
@@ -41,7 +41,7 @@ public class LevelOrderPrinter extends Printer {
 		cleanNodes(nodes);
 		compressNodes(nodes);
 		addLineNodes(nodes);
-		
+
 		int rowCount = nodes.size();
 
 		// 构建字符串
@@ -139,7 +139,7 @@ public class LevelOrderPrinter extends Printer {
 		int nodeSpace = maxWidth + 2;
 
 		// 最后一行的长度
-		int lastRowLength = lastRowNodeCount * maxWidth 
+		int lastRowLength = lastRowNodeCount * maxWidth
 				+ nodeSpace * (lastRowNodeCount - 1);
 
 		// 空集合
@@ -233,7 +233,7 @@ public class LevelOrderPrinter extends Printer {
 			}
 		}
 	}
-	
+
 	private void addXLineNode(List<Node> curRow, Node parent, int x) {
 		Node line = new Node("─");
 		line.x = x;
@@ -347,7 +347,7 @@ public class LevelOrderPrinter extends Printer {
 
 		/**
 		 * 顶部方向字符的X（极其重要）
-		 * 
+		 *
 		 * @return
 		 */
 		private int topLineX() {
@@ -383,7 +383,7 @@ public class LevelOrderPrinter extends Printer {
 
 		/**
 		 * x ~ 左边界之间的长度（包括左边界字符）
-		 * 
+		 *
 		 * @return
 		 */
 		private int leftBoundLength() {
@@ -392,7 +392,7 @@ public class LevelOrderPrinter extends Printer {
 
 		/**
 		 * rightX ~ 右边界之间的长度（包括右边界字符）
-		 * 
+		 *
 		 * @return
 		 */
 		private int rightBoundLength() {
@@ -401,7 +401,7 @@ public class LevelOrderPrinter extends Printer {
 
 		/**
 		 * 左边界可以清空的长度
-		 * 
+		 *
 		 * @return
 		 */
 		private int leftBoundEmptyLength() {
@@ -410,7 +410,7 @@ public class LevelOrderPrinter extends Printer {
 
 		/**
 		 * 右边界可以清空的长度
-		 * 
+		 *
 		 * @return
 		 */
 		private int rightBoundEmptyLength() {
@@ -452,8 +452,8 @@ public class LevelOrderPrinter extends Printer {
 			int rightHeight = treeHeight(right);
 			int minSpace = Integer.MAX_VALUE;
 			for (int i = 0; i < thisHeight && i < rightHeight; i++) {
-				int space = right.levelInfo(i).leftX 
-						- this.levelInfo(i).rightX;
+				int space = Objects.requireNonNull(right.levelInfo(i)).leftX
+						- Objects.requireNonNull(this.levelInfo(i)).rightX;
 				minSpace = Math.min(minSpace, space);
 			}
 			return minSpace;
